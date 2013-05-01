@@ -110,10 +110,10 @@
               border-radius: 0;
    }
 
-   .sidebox ul {
+   /*.sidebox ul {
        border: 1px solid #24A6E8;
        background-color: #FFF;
-   }
+   }*/
 
    .sidebox .nav-pills > .last > a{
       border-right: none;

@@ -32,6 +32,8 @@ $(document).ready(function(){
         $('.zoomer').wrapAll('<div class="zoom" />');
     });
 
+    $(".content").niceScroll({cursorborder: "none", cursorwidth: "8px", cursorborderradius:0, cursoropacitymin:0.25 , cursorcolor:"#24A6E8"});
+
     $('.nav-pills a').on("click", function(e) {
         var  $this = $(this);
         $("div.navbar ul.nav-pills li.active").removeClass("active");
