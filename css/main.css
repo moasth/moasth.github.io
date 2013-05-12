@@ -8,7 +8,6 @@
   
    h1, h2, h3, h4, h5, h6 {
       color: #000;
-      /*font-family: 'Cinzel Decorative', cursive;*/
       font-family: 'Vidaloka', serif;
       font-style: normal;
       font-weight: normal;
@@ -20,7 +19,6 @@
       font-size: 30px;
       letter-spacing: 1px;
       margin-bottom: 25px;
-      /*text-shadow: 0 1px 2px #666464;*/
    }
 
    h2 {
@@ -34,7 +32,6 @@
    }
 
    p {
-      /*font-family: 'ABeeZee', sans-serif;*/
       font-family: 'Open Sans', sans-serif;
       font-style: normal;
       font-weight: 400;
@@ -62,37 +59,6 @@
       display: none;
    }
 
-   .zoom{
-      left: 0;
-      position: fixed;
-   }
-
-   .zoomer{
-      opacity: 0.8;
-      position: fixed;
-   }
-
-   .zoomin, .zoomout{
-      border-radius: 0 !important;
-   }
-
-   .zoomin{
-      left: 40px !important;
-   }
-
-   /*.sidebox{
-      bottom:0;
-      display: block;
-      height:auto;
-      margin-top: 48px;
-      opacity: 0.8;
-      overflow: hidden;
-      position: absolute; 
-      right:15px;
-      top:0;
-      width: 33.3333%;
-   }*/
-
    .sidebox .nav-pills > li {
       text-align: center;
       width: 33.33%;
@@ -109,11 +75,6 @@
          -moz-border-radius: 0;
               border-radius: 0;
    }
-
-   /*.sidebox ul {
-       border: 1px solid #24A6E8;
-       background-color: #FFF;
-   }*/
 
    .sidebox .nav-pills > .last > a{
       border-right: none;
@@ -135,7 +96,6 @@
       text-decoration: underline;
    }
 
-   /*.sidebox .content{*/
    .content {
       background-color: #FFF;
       bottom:0;
@@ -145,10 +105,7 @@
       box-shadow: none;
       display: block;
       height:auto;
-      margin-top: 48px;
-      /*margin-top: -1px;*/
-      /*margin-bottom: 0;*/
-      /*min-height: 20px;*/
+      margin-top: 54px;
       opacity: 0.85;
       overflow: hidden;
       padding: 12px;
@@ -157,21 +114,6 @@
       top:0;
       width: 33.3333%;
    }
-
-
-   /*.content, .content h1 {
-      font-family: 'BLOKKNeue-Regular' !important;
-      speak: none;
-      font-style: normal;
-      font-weight: normal;
-      font-variant: normal;
-      text-transform: none;
-      line-height: 1;
-      -webkit-font-smoothing: antialiased;
-         -moz-font-smoothing: antialiased;
-          -ms-font-smoothing: antialiased;
-           -o-font-smoothing: antialiased;
-   }*/
 
    .menu {
       display: none;
@@ -182,19 +124,36 @@
    }
 
    .map-tooltip {
-      display: none;
+      display: none !important;
    }
 
    .loading {
       background-image: url("../img/loader.gif") !important;
       background-position: 50% 50% !important;
       background-repeat: no-repeat !important;
-      /*height: 100% !important;*/
    }
 
-   /*.loading * {
-      display: none;
-   }*/
+/* ==========================================================================
+   Leaflet overrides... 
+   ========================================================================== */
+
+	.leaflet-container {
+		background: none !important;
+	}
+
+	.leaflet-control-attribution {
+		bottom: 2px;		
+		left: 0;
+		position: fixed;
+	}
+
+	.leaflet-control-zoom {
+      	border-radius: 0;
+      	left: 0;
+      	opacity: 0.8;
+      	position: fixed;
+      	top : 52px
+   	}
 
 /* ==========================================================================
    Bootstrap overrides... 
@@ -208,18 +167,14 @@
       margin-bottom: 0px;
    }
 
-   .navbar .nav-pills > li > a {
-      margin-top: 2px;
-   }
-
    .nav-pills > li > a {
       margin-top: 0;
       margin-bottom: 0;
       padding-top: 8px;
       padding-bottom: 8px;
-      -webkit-border-radius: 5px;
-         -moz-border-radius: 5px;
-              border-radius: 5px;
+      -webkit-border-radius: 0;
+         -moz-border-radius: 0;
+              border-radius: 0;
    }
   
    .navbar-inner {
@@ -232,6 +187,7 @@
    .navbar .brand {
       color: #FFFFFF;
       text-shadow: none;
+    padding: 2px 20px;
    }
 
    .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
@@ -242,13 +198,14 @@
       display: block;
       float: left;
       left: 0;
-      margin: 4px 10px 5px 0;
+      margin: 0 10px 0 0;
       position: relative;
    }
 
    .navbar .nav > li > a {
       color: #fff;
       text-shadow: none;
+    	padding: 25px 15px 15px 15px;
    }
 
    .navbar .nav > li > a:focus,
@@ -392,7 +349,6 @@
          font-family: 'BLOKKNeue-Regular';
          src: url('fonts/BLOKKNeue-Regular.svg#BLOKKNeue-Regular') format('svg');
       }
-
    }
 
    @font-face {

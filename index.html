@@ -2,142 +2,109 @@
 <html class="no-js">
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Moasth</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>visualsace</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/bootstrap.css">
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <style>
-        body {
-            /*padding-top: 40px;*/
-        }
-
-        @media (max-width: 980px) {
-            /* Enable use of floated navbar text */
-            /*.navbar-text.pull-right {
-                float: none;
-                padding-left: 5px;
-                padding-right: 5px;
-            }*/
-        }
-
-    </style>
-    <!--<link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative' rel='stylesheet' type='text/css'>-->
-    <link href='http://fonts.googleapis.com/css?family=Vidaloka' rel='stylesheet' type='text/css'>
-    <!-- <link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'> -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <!--  <link rel="stylesheet" href="css/bootstrap-responsive.min.css"> -->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/nanoscroller.css">
-    <link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.css' rel='stylesheet' />
+	<link href='http://fonts.googleapis.com/css?family=Vidaloka' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/nanoscroller.css">
     <!--[if lt IE 9]>
     <script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
     <![endif]-->
-
+    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.css' rel='stylesheet' />
+  	<!--[if lte IE 8]>
+  	<link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.ie.css' rel='stylesheet' >
+  	<![endif]-->
+  	<link rel="stylesheet" href="css/main.css">
+  
 </head>
 
 <body>
 
-    <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
-    <!-- <div class="navbar navbar-inverse navbar-fixed-top"> -->
-    <!-- <div class="container-fluid">-->
+  	<div id="js-navbar" class="navbar navbar-fixed-top">    
+  		<div class="navbar-inner">
+  			<span class="btn menu" data-icon="&#xe001;" aria-hidden="true" data-toggle="collapse" data-target=".nav-collapse"></span>
+  			<a href="http://visualsace.fr" >
+  				<img class="brand" src="img/logo.svg" width="256px" height="52px" data-fallback="img/logo.png" alt="Logo visualsace" />
+  			</a>
 
-    <div class="navbar navbar-fixed-top">    
-        <div class="navbar-inner">
-           <span class="btn menu" data-icon="&#xe001;" aria-hidden="true" data-toggle="collapse" data-target=".nav-collapse"></span>
-            
-            <a class="brand" data-icon="&#xe000;" aria-hidden="true" href="#"></a>
+  			<div class="nav-collapse collapse">
+  				<ul class="nav nav-pills">
+  					<li class="active"><a href="#" id="home">Accueil</a></li>
+  					<li><a href="#" id="about">A Propos</a></li>
+  					<li><a href="#" id="contact">Contact</a></li>
+  					<li><a href="#" id="Test">Test</a></li>
+  				</ul>
 
-            <!-- <div aria-hidden="true" class="icon-logo10"></div> -->
+  			</div><!--/.nav-collapse -->
+  		</div>
+  	</div> <!--/.navbar -->
 
-            <!-- Everything you want hidden at 940px or less, place within here -->
-            <div class="nav-collapse collapse">
-                <!-- .nav, .navbar-search, .navbar-form, etc -->
-                <!-- <p class="navbar-text pull-right">
-                        Logged in as <a href="#" class="navbar-link">Username</a>
-                </p> -->
-                <ul class="nav nav-pills">
-                    <li class="active"><a href="#" id="home">Accueil</a></li>
-                    <li><a href="#" id="about">A Propos</a></li>
-                    <li><a href="#" id="contact">Contact</a></li>
-                </ul>
-               
-            </div><!--/.nav-collapse -->
-            <!-- </div> -->
-            <!-- <div data-icon="&#xe004;" aria-hidden="true" class="contact-icon"></div>
-            <div data-icon="&#xe003;" aria-hidden="true" class="contact-icon"></div> -->
+  	<div id="pane"> 
+  		<div id="map"></div>
+  	</div>
 
-        </div>
-    </div> <!--/.navbar -->
-
-    <div id="pane"> 
-    <div id="map"></div>
-    </div>
-    
-    <div class="sidebox pull-right content">
-       <!--  <ul class="nav nav-pills">
-            <li class="first active"><a href="#">Layer 1</a></li>
-            <li><a href="#">Layer 2</a></li>
-            <li class="last"><a href="#">Layer 3</a></li>
-        </ul> -->
-
-        <!-- <div class="content"> -->
-            <h1>This is a title</h1>        
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac odio eget justo fringilla viverra. In molestie cursus odio, a ornare nisl commodo a. Sed suscipit laoreet sem ac aliquet. Donec luctus ultricies enim et ultrices. Cras tellus mi, egestas et congue vitae, tincidunt sed erat. Etiam sodales, justo nec hendrerit tempus, libero turpis tristique quam, eu consectetur ipsum sem ac elit. Etiam fringilla sem sem. Aenean vel malesuada est. Maecenas rhoncus dictum eros sit amet ornare. Mauris eget molestie sapien. Vestibulum adipiscing ipsum in magna scelerisque sollicitudin vel sit amet enim. Cras consectetur, eros eget commodo volutpat, diam quam venenatis sem, sit amet suscipit lacus ipsum in ligula. Nulla vehicula nibh volutpat urna molestie tempor. Vestibulum vitae metus eros, sed aliquet nisi.
-            </p>
-            <p>
-                Praesent ut metus augue, sed gravida nulla. Aliquam aliquam auctor quam vel placerat. Pellentesque luctus metus eu urna rhoncus aliquet. Aliquam vitae mi mi, molestie suscipit nisl. Suspendisse tincidunt ipsum vel eros ullamcorper pellentesque. Duis eu erat ut justo sollicitudin consectetur quis nec massa. Phasellus volutpat placerat aliquet. Nunc nec turpis eu diam placerat viverra.
-            </p>
-            <p>
-                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla hendrerit dignissim lectus. Integer sit amet risus erat, sed aliquet dolor. Cras quis leo vel lorem sagittis consectetur et vitae mi. Morbi vehicula viverra auctor. Ut auctor augue at augue ullamcorper mattis. Pellentesque ac pulvinar massa. Aliquam auctor, mauris in laoreet ultrices, turpis arcu dapibus odio, sit amet euismod tortor nisl eget massa. Mauris vitae augue non erat pretium vestibulum. Nunc a massa ut lectus egestas pretium vitae quis tellus. Maecenas eu felis libero. Praesent sed elit quam.
-            </p>
-            <p>
-                Nam metus diam, accumsan vitae elementum at, placerat in nisl. Aenean faucibus, risus vitae imperdiet dictum, tortor tellus molestie augue, non venenatis turpis odio quis risus. Nullam bibendum dictum libero, vitae convallis sapien laoreet non. Cras ipsum lorem, pulvinar ac sagittis rhoncus, semper non leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras iaculis condimentum lectus vitae ornare. Morbi enim metus, tempor in euismod et, auctor ac dui. Vestibulum et elit lectus. Sed diam urna, cursus commodo suscipit sed, tristique nec dolor. Ut in odio dignissim augue commodo iaculis. Nulla viverra interdum dignissim. Cras gravida pellentesque leo, sed eleifend sem sollicitudin aliquam. Sed nisi ante, vehicula nec aliquet sit amet, feugiat in dui. Curabitur et tempor enim. Donec ut porta purus.
-            </p>
-            <p>
-                In ipsum quam, adipiscing in vulputate quis, ullamcorper ac massa. Aenean bibendum dapibus diam in tempus. Praesent tempor lobortis eleifend. Maecenas viverra convallis magna ac tempus. Proin malesuada fermentum risus, ultrices feugiat felis sodales eu. Aliquam eget orci at mauris ornare aliquam non non sapien. Ut eget est est, et convallis massa. Praesent eleifend metus vel massa aliquet et auctor diam fringilla. Vestibulum nec risus tellus, ac volutpat sem. In venenatis tincidunt congue. Donec sem est, tempus eu suscipit ac, tempus vehicula ante. In hac habitasse platea dictumst.
-            </p>
+  	<div id="js-sidebox" class="sidebox pull-right content">
+  
+        <h1>This is a title</h1>        
+        <p>
+        	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac odio eget justo fringilla viverra. In molestie cursus odio, a ornare nisl commodo a. Sed suscipit laoreet sem ac aliquet. Donec luctus ultricies enim et ultrices. Cras tellus mi, egestas et congue vitae, tincidunt sed erat. Etiam sodales, justo nec hendrerit tempus, libero turpis tristique quam, eu consectetur ipsum sem ac elit. Etiam fringilla sem sem. Aenean vel malesuada est. Maecenas rhoncus dictum eros sit amet ornare. Mauris eget molestie sapien. Vestibulum adipiscing ipsum in magna scelerisque sollicitudin vel sit amet enim. Cras consectetur, eros eget commodo volutpat, diam quam venenatis sem, sit amet suscipit lacus ipsum in ligula. Nulla vehicula nibh volutpat urna molestie tempor. Vestibulum vitae metus eros, sed aliquet nisi.
+        </p>
+        <p>
+        	Praesent ut metus augue, sed gravida nulla. Aliquam aliquam auctor quam vel placerat. Pellentesque luctus metus eu urna rhoncus aliquet. Aliquam vitae mi mi, molestie suscipit nisl. Suspendisse tincidunt ipsum vel eros ullamcorper pellentesque. Duis eu erat ut justo sollicitudin consectetur quis nec massa. Phasellus volutpat placerat aliquet. Nunc nec turpis eu diam placerat viverra.
+        </p>
+        <p>
+        	Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla hendrerit dignissim lectus. Integer sit amet risus erat, sed aliquet dolor. Cras quis leo vel lorem sagittis consectetur et vitae mi. Morbi vehicula viverra auctor. Ut auctor augue at augue ullamcorper mattis. Pellentesque ac pulvinar massa. Aliquam auctor, mauris in laoreet ultrices, turpis arcu dapibus odio, sit amet euismod tortor nisl eget massa. Mauris vitae augue non erat pretium vestibulum. Nunc a massa ut lectus egestas pretium vitae quis tellus. Maecenas eu felis libero. Praesent sed elit quam.
+        </p>
+        <p>
+        	Nam metus diam, accumsan vitae elementum at, placerat in nisl. Aenean faucibus, risus vitae imperdiet dictum, tortor tellus molestie augue, non venenatis turpis odio quis risus. Nullam bibendum dictum libero, vitae convallis sapien laoreet non. Cras ipsum lorem, pulvinar ac sagittis rhoncus, semper non leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras iaculis condimentum lectus vitae ornare. Morbi enim metus, tempor in euismod et, auctor ac dui. Vestibulum et elit lectus. Sed diam urna, cursus commodo suscipit sed, tristique nec dolor. Ut in odio dignissim augue commodo iaculis. Nulla viverra interdum dignissim. Cras gravida pellentesque leo, sed eleifend sem sollicitudin aliquam. Sed nisi ante, vehicula nec aliquet sit amet, feugiat in dui. Curabitur et tempor enim. Donec ut porta purus.
+        </p>
+        <p>
+        	In ipsum quam, adipiscing in vulputate quis, ullamcorper ac massa. Aenean bibendum dapibus diam in tempus. Praesent tempor lobortis eleifend. Maecenas viverra convallis magna ac tempus. Proin malesuada fermentum risus, ultrices feugiat felis sodales eu. Aliquam eget orci at mauris ornare aliquam non non sapien. Ut eget est est, et convallis massa. Praesent eleifend metus vel massa aliquet et auctor diam fringilla. Vestibulum nec risus tellus, ac volutpat sem. In venenatis tincidunt congue. Donec sem est, tempus eu suscipit ac, tempus vehicula ante. In hac habitasse platea dictumst.
+        </p>
         <!-- </div>  -->
 
     </div> <!--/.sidebox -->
 
     <div id="contact-content">
-            <h1>Contact</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac odio eget justo fringilla viverra. In molestie cursus odio, a ornare nisl commodo a. Sed suscipit laoreet sem ac aliquet. Donec luctus ultricies enim et ultrices. Cras tellus mi, egestas et congue vitae, tincidunt sed erat. Etiam sodales, justo nec hendrerit tempus, libero turpis tristique quam, eu consectetur ipsum sem ac elit. Etiam fringilla sem sem. Aenean vel malesuada est. Maecenas rhoncus dictum eros sit amet ornare. Mauris eget molestie sapien. Vestibulum adipiscing ipsum in magna scelerisque sollicitudin vel sit amet enim. Cras consectetur, eros eget commodo volutpat, diam quam venenatis sem, sit amet suscipit lacus ipsum in ligula. Nulla vehicula nibh volutpat urna molestie tempor. Vestibulum vitae metus eros, sed aliquet nisi.
-            </p>
-        </div>
+    	<h1>Contact</h1>
+    	<p>
+    		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac odio eget justo fringilla viverra. In molestie cursus odio, a ornare nisl commodo a. Sed suscipit laoreet sem ac aliquet. Donec luctus ultricies enim et ultrices. Cras tellus mi, egestas et congue vitae, tincidunt sed erat. Etiam sodales, justo nec hendrerit tempus, libero turpis tristique quam, eu consectetur ipsum sem ac elit. Etiam fringilla sem sem. Aenean vel malesuada est. Maecenas rhoncus dictum eros sit amet ornare. Mauris eget molestie sapien. Vestibulum adipiscing ipsum in magna scelerisque sollicitudin vel sit amet enim. Cras consectetur, eros eget commodo volutpat, diam quam venenatis sem, sit amet suscipit lacus ipsum in ligula. Nulla vehicula nibh volutpat urna molestie tempor. Vestibulum vitae metus eros, sed aliquet nisi.
+    	</p>
+    </div>
 
-        <div id="about-content">
-            <h1>A propos</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac odio eget justo fringilla viverra. In molestie cursus odio, a ornare nisl commodo a. Sed suscipit laoreet sem ac aliquet. Donec luctus ultricies enim et ultrices. Cras tellus mi, egestas et congue vitae, tincidunt sed erat. Etiam sodales, justo nec hendrerit tempus, libero turpis tristique quam, eu consectetur ipsum sem ac elit. Etiam fringilla sem sem. Aenean vel malesuada est. Maecenas rhoncus dictum eros sit amet ornare. Mauris eget molestie sapien. Vestibulum adipiscing ipsum in magna scelerisque sollicitudin vel sit amet enim. Cras consectetur, eros eget commodo volutpat, diam quam venenatis sem, sit amet suscipit lacus ipsum in ligula. Nulla vehicula nibh volutpat urna molestie tempor. Vestibulum vitae metus eros, sed aliquet nisi.
-            </p>
-        </div>
+    <div id="about-content">
+    	<h1>A propos</h1>
+    	<p>
+    		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac odio eget justo fringilla viverra. In molestie cursus odio, a ornare nisl commodo a. Sed suscipit laoreet sem ac aliquet. Donec luctus ultricies enim et ultrices. Cras tellus mi, egestas et congue vitae, tincidunt sed erat. Etiam sodales, justo nec hendrerit tempus, libero turpis tristique quam, eu consectetur ipsum sem ac elit. Etiam fringilla sem sem. Aenean vel malesuada est. Maecenas rhoncus dictum eros sit amet ornare. Mauris eget molestie sapien. Vestibulum adipiscing ipsum in magna scelerisque sollicitudin vel sit amet enim. Cras consectetur, eros eget commodo volutpat, diam quam venenatis sem, sit amet suscipit lacus ipsum in ligula. Nulla vehicula nibh volutpat urna molestie tempor. Vestibulum vitae metus eros, sed aliquet nisi.
+    	</p>
+    </div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
     <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/modernizr-latest.js"></script>
     <script src="js/vendor/jquery.nicescroll.js"></script>
-    <script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js'></script>
+    <script src='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.js'></script>
     <script src="js/main.js"></script>
 
-<script type="text/javascript">
+    <script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-40685997-1']);
-  _gaq.push(['_trackPageview']);
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-40685997-1']);
+    _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+    (function() {
+    	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
 
-</script>
+    </script>
 
 </body>
 </html>
