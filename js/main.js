@@ -5,7 +5,7 @@
 	}
 
 	// Load maps
-	var map = L.mapbox.map('map', 'moasth.map-pzgtnf9m,moasth.map-czvq0pvt,moasth.chateaux', {minZoom: 5, maxZoom: 15, maxBounds: [[41.275605,-13.64502],[52.427436,17.29248]]});
+	var map = L.mapbox.map('map', 'moasth.map-pzgtnf9m,moasth.map-czvq0pvt,moasth.chateaux', {minZoom: 5, maxZoom: 15, maxBounds: [[41.275605,-13.64502],[52.534491,19.665527]]});
 	
 	map.gridLayer
 	.on('click',function(o) {
