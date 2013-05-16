@@ -1,7 +1,6 @@
 # Qu'est-ce que **Visualsace** ?
-Il s'agit d'un projet personnel répondant aux besoins particuliers d'un vététiste 
-alsacien s'intéressant depuis peu aux châteaux de sa région. 
+Visualsace est un projet personnel dont le but est de proposer un ensemble de cartes intéractives consacrées pour le moment à l'Alsace et à Strasbourg.
 
-Depuis le début du projet, de nombreuses idées ont germé, et j'espère pouvoir proposer de nouvelles cartes de manière régulière. Ces cartes seront essentiellement centrées sur l'Alsace ou Strasbourg, et seront mises en ligne à un rythme qui dépendra principalement du temps que j'aurai à y consacrer.
+L'éventail de thématiques proposées sera je l'espère très large, mais principalement axées sur le tourisme, ou la découverte de la région d'une manière générale. 
 
-N'hésitez pas à rester branchés via le compte twitter pour vous tenir au courant, m'envoyer vos remarques, suggestions. Je n'accepterai bien évidemment aucune critique ! :) 
+N'hésitez pas à me contacter pour me faire part de vos remarques !
