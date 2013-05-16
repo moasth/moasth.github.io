@@ -5,7 +5,7 @@
 	}
 
 	// Load maps
-	var map = L.mapbox.map('map', 'moasth.map-pzgtnf9m,moasth.map-czvq0pvt,moasth.chateaux', {minZoom: 6, maxZoom: 15, maxBounds: [[35.3073, -19.6518],[59.5726, 34.0933]]});
+	var map = L.mapbox.map('map', 'moasth.map-pzgtnf9m,moasth.map-czvq0pvt,moasth.chateaux', {minZoom: 5, maxZoom: 15, maxBounds: [[41.275605,-13.64502],[52.427436,17.29248]]});
 	
 	map.gridLayer
 	.on('click',function(o) {
@@ -58,12 +58,16 @@
     		$paragraphs.remove();
     		if(pages && pageKey && pages[pageKey].extract) {
     			content = pages[pageKey].extract;
-    			//content = content.replace(/(<([^>]+)>)/ig,"");
+    			content = content.replace(/\[modifier\]/gi,"");
     		}
     		else {
     			content = nocontent;
     		}
-    		$(content).insertAfter($title)
+    		$(content).insertAfter($title);
+    		$sidebox.find("ul.gallery").remove();
+			var $todelete = $("#js-sidebox h2:contains(Notes et références), #js-sidebox h2:contains(Articles connexes), #js-sidebox h2:contains(Liens externes), #js-sidebox h2:contains(Bibliographie)");
+    		$todelete.nextAll().remove(); 
+    		$todelete.remove();
     	})
     	.fail(function(jqXHR, textStatus, errorThrown) { $paragraphs.remove();
     		if(textStatus != 'abort') $(nocontent).insertAfter($title); })
