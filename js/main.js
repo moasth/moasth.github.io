@@ -121,7 +121,8 @@
         });
 
         var markers = new L.MarkerClusterGroup({
-        	showCoverageOnHover: false
+        	showCoverageOnHover: false,
+        	maxClusterRadius: 35
         });
         
         markers.addLayer(layer);
