@@ -45,6 +45,7 @@ map.on('locationfound', function(e) {
             coordinates: [e.latlng.lng, e.latlng.lat]
         },
         properties: {
+        	'title': 'Votre position',
             'marker-color': '#EC3C4D',
             'marker-symbol': 'circle-stroked'
         }
@@ -94,7 +95,7 @@ map.on('locationerror', function() {
 	function setSelectedIcon(e) {
 		var layer = e.target;
 	    var iconElem = L.DomUtil.get(layer._icon);
-	    iconElem.src = 'http://a.tiles.mapbox.com/v3/marker/pin-l-marker-stroked+24A6E8.png';
+	    iconElem.src = 'http://a.tiles.mapbox.com/v3/marker/pin-l-circle-stroked+24A6E8.png';
 	   	iconElem.style.height = '90px';
 	    iconElem.style.width = '35px';
 	    iconElem.style.marginLeft = '-17.5px';
