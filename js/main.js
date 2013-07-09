@@ -4,12 +4,7 @@
 		imgs.attr('src', imgs.data('fallback'));
 	}
 
-	// Load maps
-	// Avec chateaux / raster 
-	/*var map = L.mapbox.map('map', 'moasth.map-pzgtnf9m,moasth.map-czvq0pvt,moasth.chateaux', {minZoom: 5, maxZoom: 15, maxBounds: [[41.275605,-13.64502],[52.534491,19.665527]]});
-	*/
-	
-	// Sans chateaux
+	// Load map
 	var map = L.mapbox.map('map', 'moasth.map-pzgtnf9m,moasth.map-czvq0pvt', {minZoom: 5, maxZoom: 15, maxBounds: [[41.275605,-13.64502],[52.534491,19.665527]]});
 	
 	// DEBUG
@@ -19,6 +14,51 @@
 			"type":"Feature","properties":{"name":"Château du Petit Arnsbourg","wikipedia":"Château_du_Petit-Arnsberg","cartodb_id":9,"created_at":"2013-05-18T20:01:03.710Z","updated_at":"2013-05-18T20:01:03.939Z","century":null,"pics":null},"geometry":{"type":"Point","coordinates":[7.690477,49.038794]}
     	}]
     };*/
+
+//	$(".leaflet-control-zoom").append('<a class="leaflet-control-zoom-out icon-location-arrow icon-1"></a>')
+	$(".leaflet-control-zoom").append('<a id="geolocate" class="icon-location-arrow icon-1"></a>')
+
+// This uses the HTML5 geolocation API, which is available on
+// most mobile browsers and modern browsers, but not in Internet Explorer
+//
+// See this chart of compatibility for details:
+// http://caniuse.com/#feat=geolocation
+if (!navigator.geolocation) {
+    //geolocate.innerHTML = 'geolocation is not available';
+} else {
+    geolocate.onclick = function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        map.locate();
+    };
+}
+
+// Once we've got a position, zoom and center the map
+// on it, and add a single marker.
+map.on('locationfound', function(e) {
+    map.fitBounds(e.bounds);
+
+    map.markerLayer.setGeoJSON({
+        type: "Feature",
+        geometry: {
+            type: "Point",
+            coordinates: [e.latlng.lng, e.latlng.lat]
+        },
+        properties: {
+            'marker-color': '#EC3C4D',
+            'marker-symbol': 'circle-stroked'
+        }
+    });
+
+    // And hide the geolocation button
+    //geolocate.parentNode.removeChild(geolocate);
+});
+
+// If the user chooses not to allow their location
+// to be shared, display an error message.
+map.on('locationerror', function() {
+    geolocate.innerHTML = 'position could not be found';
+});
 
     function getContent(t){
     	var nocontent = "<p>Aucune information n'est disponible</p>";
