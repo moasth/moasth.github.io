@@ -8,6 +8,7 @@
 - Prise en charge de l'affichage rétina (cartes et markers)
 - Affichage des photos wikipédia et / ou Wikimedia Commons
 - Amélioration de l'affichage sur mobile (informations des châteaux dans une popup)
+
 ###Couche technique et données
 - Corrections de données (noms de châteaux, caractères spéciaux)
 - Optimisations Javascript (modules)
