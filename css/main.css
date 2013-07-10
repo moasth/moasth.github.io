@@ -119,6 +119,10 @@
    	display: none;
    }
 
+	.leaflet-control-container #geolocate{
+		font-size: 16px;
+	}
+
    .map-attribution {
    	position: fixed !important;
    }

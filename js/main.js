@@ -16,7 +16,8 @@
     };*/
 
 //	$(".leaflet-control-zoom").append('<a class="leaflet-control-zoom-out icon-location-arrow icon-1"></a>')
-	$(".leaflet-control-zoom").append('<a id="geolocate" class="icon-location-arrow icon-1"></a>')
+	$(".leaflet-control-zoom").append('<a id="geolocate" class="icon-gpsoff-gps"></a>');
+	var geolocate = document.getElementById('geolocate');
 
 // This uses the HTML5 geolocation API, which is available on
 // most mobile browsers and modern browsers, but not in Internet Explorer
@@ -26,6 +27,7 @@
 if (!navigator.geolocation) {
     //geolocate.innerHTML = 'geolocation is not available';
 } else {
+    //var geolocate = $("#geolocate");
     geolocate.onclick = function (e) {
         e.preventDefault();
         e.stopPropagation();
@@ -35,10 +37,15 @@ if (!navigator.geolocation) {
 
 // Once we've got a position, zoom and center the map
 // on it, and add a single marker.
+
 map.on('locationfound', function(e) {
+
+map.markerLayer.clearLayers();
+$("#geolocate").removeClass("icon-gpsoff-gps").addClass("icon-gpson");
+
     map.fitBounds(e.bounds);
 
-    map.markerLayer.setGeoJSON({
+map.markerLayer.setGeoJSON({
         type: "Feature",
         geometry: {
             type: "Point",
@@ -58,7 +65,7 @@ map.on('locationfound', function(e) {
 // If the user chooses not to allow their location
 // to be shared, display an error message.
 map.on('locationerror', function() {
-    geolocate.innerHTML = 'position could not be found';
+    //geolocate.innerHTML = 'position could not be found';
 });
 
     function getContent(t){
