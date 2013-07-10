@@ -1,6 +1,15 @@
 # visualsace
 ## Description à compléter
 ## Stack technique
+- QGIS
+- Mapbox et TileMill
+- CartoDB
+- 
+###Front
+- Twitter Bootstrap
+- Icônes...
+
+
 ## Changelog ??
 
 
