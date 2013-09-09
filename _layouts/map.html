@@ -1,0 +1,44 @@
+{% include map_header.html %}
+{% include navbar.html param="maps" %}
+<div id="pane"> 
+	<div id="map"></div>
+</div>
+<div id="js-page" class="container page-container page-container-right">
+	<!-- <button type="button" id="js-close-page" class="icon-remove-circle close-icon"></button> -->
+	<a id="js-close-page" class="close-icon" href="#">Afficher la carte</a>
+	<div class="description">
+		{{ content }}
+	</div>
+	<br/>
+</div> 
+
+{% raw %}
+<script id="titleTpl" type="text/html">
+	<h1> {{name}} </h1> 
+</script>
+
+<script id="noInfoTpl" type="text/html">
+	<h1> {{name}} </h1> 
+	<p>Aucune information n&#39;est disponible</p>
+</script>
+
+<script id="contentTpl" type="text/html">
+	<h1> {{name}} </h1> 
+	<div id="content"> 
+	    <div class="images"/>  
+	    <div id="text"></div>
+	    <div class="link"><a href="http://fr.wikipedia.org/wiki/{{castleId}}">Lire la suite sur Wikipédia</a></div>
+	</div>
+</script>
+
+<script id="imagesTpl" type="text/html">
+	{{#images}}
+	<div class="image">
+	    <img alt="{{alt}}" src="http://res.cloudinary.com/diy8beggy/image/upload/c_lfill,w_150,h_150/{{castleId}}_{{index}}_{{picId}}.png" class="img-polaroid" style="margin: auto;display: inline-block;">
+	</div>
+	{{/images}}
+	<div style="clear: both"/>
+</script>
+{% endraw %}
+
+{% include map_footer.html %}

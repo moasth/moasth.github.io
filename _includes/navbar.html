@@ -1,0 +1,23 @@
+ <div class="navbar navbar-fixed-top">    
+      <div class="navbar-inner">
+
+        <!-- <span class="btn menu" data-icon="&#xe001;" aria-hidden="true" data-toggle="collapse" data-target=".nav-collapse"></span> -->
+        <span class="btn menu icon-menu" data-toggle="collapse" data-target=".nav-collapse"></span>
+        {% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
+        {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+        <a href="{{site.url}}" >
+          <img class="brand" src="{{ relative }}img/logo.svg" data-fallback="{{ relative }}img/logo.png" alt="visualsace" />
+        </a>
+
+        <div id="menu" class="container navbar-menu-container">
+          <div class="nav-collapse collapse">
+            <ul class="nav nav-pills">
+              <li id="home" {%if include.param == 'blog' %} class='active' {% endif %}><a href="{{site.baseurl}}/">Blog</a></li>
+              <li id="maps" {%if include.param == 'maps' %} class='active' {% endif %}><a href="{{site.baseurl}}/map">Cartes</a></li>
+              <li id="about"><a href="#">A Propos</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+
+      </div>
+    </div> <!--/.navbar -->
