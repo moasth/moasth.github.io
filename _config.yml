@@ -11,7 +11,7 @@ name: visualsace
 pygments: true
 paginate: 5
 paginate_path: page/:num
-baseurl: /boombo
+#baseurl: /boombo
 markdown: rdiscount
 permalink: pretty
 pygments: true
