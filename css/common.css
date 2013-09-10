@@ -33,6 +33,10 @@ h1 a:link, h1 a:visited {
   text-decoration: none;
 }
 
+h1 a {
+  display: inline-block; 
+}
+
 ul, ol {
   list-style-position: inside;
   margin: 0 0 0 0;
@@ -376,7 +380,7 @@ ul, ol {
   display: inline;
 }
 
-@media (min-width: 481px) and (max-width: 979px) {
+@media (min-width: 604px) and (max-width: 979px) {
 
   .navbar-fixed-top .container, .navbar-fixed-bottom .container {
     width: 100%;
@@ -401,7 +405,7 @@ ul, ol {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 604px) {
 
   .close-icon{
     display: inline;
