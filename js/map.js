@@ -1,4 +1,4 @@
-// Display png logo when svg isn't supported (thank you @walterstephanie)
+// Display png logo when svg isn't supported
 // Update
 if(!Modernizr.svg) {
 	var imgs = $('img[data-fallback]');

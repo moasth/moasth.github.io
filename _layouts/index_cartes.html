@@ -1,0 +1,11 @@
+{% include header_standard.html %}
+{% include navbar.html param="cartes" %}
+<div id="map" class="background"></div>
+<div id="js-page" class="container page-container page-container-centered">
+		{{ content }}
+	<br/>
+	{% if page.comments %}
+	<div id="disqus_thread"></div>
+	{% endif %}
+</div>
+{% include footer_standard.html %}

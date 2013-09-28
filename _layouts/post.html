@@ -1,0 +1,25 @@
+{% include header_standard.html %}
+{% include navbar.html param="blog" %}
+<div id="map" class="background"></div>
+<div id="js-page" class="container page-container page-container-centered">
+	<div class="post">
+		<h1>{{ page.title }}</h1>
+		<div class="date">{{ page.date | date_to_string }}</div>  
+		{{ content }}
+	</div>
+	<br/>
+	<!-- AddThis Button BEGIN -->
+	<div class="addthis_toolbox addthis_default_style ">
+		<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+		<a class="addthis_button_tweet"></a>
+		<a class="addthis_button_pinterest_pinit" pi:pinit:layout="horizontal"></a>
+		<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-524756e53bee1e3f"></script>
+	<!-- AddThis Button END -->
+	<br/>
+	{% if page.comments %}
+	<div id="disqus_thread"></div>
+	{% endif %}
+</div>
+{% include footer_standard.html %}

@@ -1,5 +1,5 @@
-{% include map_header.html %}
-{% include navbar.html param="maps" %}
+{% include header_carte.html %}
+{% include navbar.html param="cartes" %}
 <div id="pane"> 
 	<div id="map"></div>
 </div>
@@ -9,6 +9,15 @@
 	<div class="description">
 		{{ content }}
 	</div>
+	<!-- AddThis Button BEGIN -->
+	<div class="addthis_toolbox addthis_default_style ">
+		<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+		<a class="addthis_button_tweet"></a>
+		<a class="addthis_button_pinterest_pinit" pi:pinit:layout="horizontal"></a>
+		<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-524756e53bee1e3f"></script>
+	<!-- AddThis Button END -->
 	<br/>
 </div> 
 
@@ -41,4 +50,4 @@
 </script>
 {% endraw %}
 
-{% include map_footer.html %}
+{% include footer_carte.html %}

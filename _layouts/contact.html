@@ -1,0 +1,15 @@
+{% include header_standard.html %}
+{% include navbar.html param="contact" %}
+<div id="pane"> 
+	<div id="map"></div>
+</div>
+<div id="js-page" class="container page-container page-container-right">
+	<!-- <button type="button" id="js-close-page" class="icon-remove-circle close-icon"></button> -->
+	<a id="js-close-page" class="close-icon" href="#">Afficher la carte</a>
+	<div class="description">
+		{{ content }}
+	</div>
+	<br/>
+</div> 
+
+{% include footer_contact.html %}

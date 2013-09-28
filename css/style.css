@@ -55,6 +55,28 @@ ul, ol {
   right: 0;
 }
 
+.bouton {
+  background: #24A6E8;
+  border: 1px solid #24A6E8;
+  line-height: 40px;
+  margin: 5px auto;
+  text-align: center;
+  width: 50%;
+}
+
+.bouton:hover{
+  background-color: #54baee;
+}
+
+.bouton a {
+  color: white;
+  display: block;
+}
+
+.bouton a:hover{
+  text-decoration: none;
+}
+
 .btn:hover{
   color: white;
 }
@@ -63,21 +85,34 @@ ul, ol {
   border: none;
   display: none;
   float: right;
-  /*font-size: 2.5em;*/
   line-height: normal;
   margin-top: 10px;
-  /*margin-right: -15px;*/
   padding: 0;
 }
 
+.contact {
+    margin: 20px auto;
+    width: 250px;
+}
+
+.contact div {
+  margin-bottom: 20px;
+}
+
+.contact [class^="icon-"] {
+  font-size: 200%; 
+  margin-right: 15px;
+}
+
 .date{
+  margin-bottom: 10px;
   color: #979797;
   font-style: italic;
 }
 
 .description {
   clear: right;
-  padding: 5px 0 40px 0;
+  padding: 5px 0 20px 0;
 }
 
 #geolocate {
@@ -374,6 +409,11 @@ ul, ol {
 #post-pagination .current-page{
   background-color: #24A6E8;
   color: #FFFFFF;
+}
+
+.separator {
+  border-bottom: 2px solid rgba(0,49,79,.08);
+  margin: 40px 0;
 }
 
 .visible{
