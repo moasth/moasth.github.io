@@ -12,8 +12,8 @@ pygments: true
 paginate: 5
 paginate_path: page/:num
 #baseurl: /boombo
-baseurl: http://visualsace.fr
+baseurl: http://www.visualsace.fr
 markdown: rdiscount
 permalink: pretty
 pygments: true
-url: http://visualsace.fr
+url: http://www.visualsace.fr
