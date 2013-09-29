@@ -6,6 +6,9 @@
   <title>{{ page.title }}</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="{{ page.title }}" /> 
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" /> 
+  <meta property="og:image" content="{{ relative }}img/carte_chateaux_alsace_small.png" /> 
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
   {% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
   {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
