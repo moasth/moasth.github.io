@@ -3,7 +3,7 @@ layout: blog_index
 title: Blog &bull; visualsace
 comments: false
 ---
-{% comment %} <p>{{ post.content | strip_html | truncatewords:150}}</p>%} {% endcomment %}
+{% comment %} <p>{{ post.content | strip_html | truncatewords:100}}</p>%} {% endcomment %}
 {% for post in paginator.posts limit: 5 %}
 <div class="post">
 	<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
