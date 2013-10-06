@@ -1,6 +1,6 @@
 ---
 layout: index_cartes
-title: Cartes &bull; visualsace
+title: visualsace &bull; L'Alsace en cartes !
 date: 25/09/2013
 comments: false
 published: true

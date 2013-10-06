@@ -1,6 +1,6 @@
 ---
 layout: contact
-title: Contact &bull; visualsace
+title: visualsace &bull; L'Alsace en cartes !
 date: 25/09/2013
 published: true
 ---
