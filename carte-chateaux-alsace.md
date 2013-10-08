@@ -1,6 +1,6 @@
 ---
 layout: carte
-title: Carte des ch&acirc;teaux d'Alsace
+title: Carte des ch&acirc;teaux d'Alsace &bull; visualsace
 ---
 #Carte des ch&acirc;teaux d'Alsace
 La concentration de châteaux forts en Alsace est inégalée ! Elle s'explique principalement par l'importance stratégique de la région au Moyen Age et par les luttes opposant le pouvoir impérial et l'Eglise. Construits entre les XIe et XIVe siècle, il en subsiste aujourd'hui de très nombreux vestiges.   
