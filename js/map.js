@@ -215,6 +215,8 @@ var Content = function () {
             return;
         }
 
+        _gaq.push(['_trackEvent', 'Châteaux', 'Détail', _name]);
+
         _setTitle(_name);
         /*_$page.removeClass(_css.invisibleClass);*/
 
