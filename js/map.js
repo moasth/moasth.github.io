@@ -60,6 +60,7 @@ var Map = function () {
                 e.preventDefault();
                 e.stopPropagation();
                 _map.locate();
+                _gaq.push(['_trackEvent', 'Châteaux', 'Géolocalisation']);
             };
         }
 
