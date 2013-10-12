@@ -1,0 +1,56 @@
+{% include header_carte.html %}
+{% include navbar.html param="cartes" %}
+<div id="pane"> 
+	<div id="map"></div>
+</div>
+<div id="js-page" class="container page-container page-container-right">
+	<!-- <button type="button" id="js-close-page" class="icon-remove-circle close-icon"></button> -->
+	<a id="js-close-page" class="close-icon" href="#">Afficher la carte</a>
+	<div class="description">
+		{{ content }}
+		<br/>
+		<!-- AddThis Button BEGIN -->
+		<div class="addthis_toolbox addthis_default_style addthis_16x16_style">
+			<a class="addthis_button_facebook"></a>
+			<a class="addthis_button_twitter"></a>
+			<a class="addthis_button_google_plusone_share"></a>
+			<a class="addthis_button_pinterest_share"></a>
+			<a class="addthis_button_compact"></a><a class="addthis_counter addthis_bubble_style"></a>
+		</div>
+		<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-524756e53bee1e3f"></script>
+		<!-- AddThis Button END -->	
+	</div>
+	<br/>
+</div> 
+
+{% raw %}
+<script id="titleTpl" type="text/html">
+	<h1> {{name}} </h1> 
+</script>
+
+<script id="noInfoTpl" type="text/html">
+	<h1> {{name}} </h1> 
+	<p>Aucune information n&#39;est disponible</p>
+</script>
+
+<script id="contentTpl" type="text/html">
+	<h1> {{name}} </h1> 
+	<div id="content"> 
+	    <div class="images"/>  
+	    <div id="text"></div>
+	    <div class="link"><a href="http://fr.wikipedia.org/wiki/{{castleId}}" onClick='_gaq.push(["_trackEvent", "Châteaux", "Wikipédia", "{{name}}"])'>Lire la suite sur Wikipédia</a></div>
+	</div>
+</script>
+
+<script id="imagesTpl" type="text/html">
+	{{#images}}
+	<div class="image">
+	    <img alt="{{alt}}" src="http://res.cloudinary.com/diy8beggy/image/upload/c_lfill,w_150,h_150/{{castleId}}_{{index}}_{{picId}}.png" class="img-polaroid" style="margin: auto;display: inline-block;">
+	</div>
+	{{/images}}
+	<div style="clear: both"/>
+</script>
+{% endraw %}
+
+{% include footer_carte_adj.html %}

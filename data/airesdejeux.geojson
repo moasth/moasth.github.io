@@ -1,0 +1,2098 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "place des Colombes",
+        "numero_du_point_vert": 829,
+        "nom_du_point_vert": "Place des Colombes",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PPPL2 - Places et placettes plantées",
+        "adresse_complete": "place des Colombes STRASBOURG",
+        "cartodb_id": 1,
+        "exact": "true",
+        "BH":0,"BP":0,"EF":0,"JS":1,"BS":1,"JE":3,"MA":1,"MN":1,"MSR":3,"ML":0,"MPN":0,"SMA":1,"TE":0,"TO":1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.769892811775207,
+          48.5306277027548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue René Hirschler",
+        "numero_du_point_vert": 620,
+        "nom_du_point_vert": "Parc des Contades",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PARC - Parcs",
+        "adresse_complete": "rue René Hirschler STRASBOURG",
+        "cartodb_id": 2,
+        "exact": "true",
+        "BH":2,"BP":0,"EF":1,"JS":3,"BS":1,"JE":0,"MA":1,"MN":0,"MSR":4,"ML":0,"MPN":2,"SMA":1,"TE":0,"TO":0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.758694589138031,
+          48.591965718055725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "square de la Corse",
+        "numero_du_point_vert": 3014,
+        "nom_du_point_vert": "Square de la Corse",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "square de la Corse STRASBOURG",
+        "cartodb_id": 3,
+        "exact": "true",
+        "BH":0,"BP":1,"EF":3,"JS":0,"BS":0,"JE":0,"MA":0,"MN":0,"MSR":0,"ML":0,"MPN":0,"SMA":1,"TE":0,"TO":0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.75583267211914,
+          48.54512661606975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue de la Coudreuse",
+        "numero_du_point_vert": 265,
+        "nom_du_point_vert": "Espace vert rue de la Coudreuse",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue de la Coudreuse STRASBOURG",
+        "cartodb_id": 4,
+        "exact": "true",
+        "BH":0,"BP":0,"EF":0,"JS":0,"BS":0,"JE":0,"MA":0,"MN":0,"MSR":2,"ML":0,"MPN":0,"SMA":1,"TE":0,"TO":0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.726591229438782,
+          48.57204975896057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue des Enfants",
+        "numero_du_point_vert": 45,
+        "nom_du_point_vert": "Placette rue des Enfants",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PPPL2 - Places et placettes plantées",
+        "adresse_complete": "rue des Enfants STRASBOURG",
+        "cartodb_id": 5,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.720298767089844,
+          48.59207925768847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue Staedel",
+        "numero_du_point_vert": 740,
+        "nom_du_point_vert": "Plaine de jeux de l'Extenwoerth",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue Staedel STRASBOURG",
+        "cartodb_id": 6,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.754926085472106,
+          48.55819765121934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "square Gaston Fleischel",
+        "numero_du_point_vert": 3019,
+        "nom_du_point_vert": "Square Gaston Fleischel",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "square Gaston Fleischel STRASBOURG",
+        "cartodb_id": 7,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.710911035537721,
+          48.60305591605567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue des Forges",
+        "numero_du_point_vert": 894,
+        "nom_du_point_vert": "Placette rue des Forges",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PPPL2 - Places et placettes plantées",
+        "adresse_complete": "rue des Forges STRASBOURG",
+        "cartodb_id": 8,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.757450044155121,
+          48.57910925306439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue Augustin Fresnel",
+        "numero_du_point_vert": 6234,
+        "nom_du_point_vert": "Square Augustin Fresnel",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue Augustin Fresnel STRASBOURG",
+        "cartodb_id": 9,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7194297313690186,
+          48.60404916111693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "berge de l'Ill",
+        "numero_du_point_vert": 280,
+        "nom_du_point_vert": "Berges de l'Ill -(23)- Canal de la Bruche",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PRSB - Promenades sur berges",
+        "adresse_complete": "berge de l'Ill STRASBOURG",
+        "cartodb_id": 10,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.712316513061523,
+          48.5680634955605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "place de Haguenau",
+        "numero_du_point_vert": 123,
+        "nom_du_point_vert": "Square central - Place de Haguenau",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "place de Haguenau STRASBOURG",
+        "cartodb_id": 11,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.742689847946167,
+          48.59227795143187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "place de Haldenbourg",
+        "numero_du_point_vert": 43,
+        "nom_du_point_vert": "Square place de Haldenbourg",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "place de Haldenbourg STRASBOURG",
+        "cartodb_id": 12,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.712954878807067,
+          48.60335211796611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue du Rhin Tortu",
+        "numero_du_point_vert": 738,
+        "nom_du_point_vert": "Parc Schulmeister",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PARC - Parcs",
+        "adresse_complete": "rue du Rhin Tortu STRASBOURG",
+        "cartodb_id": 13,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.759394645690918,
+          48.54866369228983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "berge de l'Ill",
+        "numero_du_point_vert": 269,
+        "nom_du_point_vert": "Berges de l'Ill -(17)- Stade Hans Arp-Passerelle Illhof",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PRSB - Promenades sur berges",
+        "adresse_complete": "berge de l'Ill STRASBOURG",
+        "cartodb_id": 14,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.715572714805603,
+          48.57022172526409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue Jean Giraudoux",
+        "numero_du_point_vert": 185,
+        "nom_du_point_vert": "Square Jaroslav Hasek",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue Jean Giraudoux STRASBOURG",
+        "cartodb_id": 15,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.701759338378906,
+          48.58461348373451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "place Henri Will",
+        "numero_du_point_vert": 672,
+        "nom_du_point_vert": "Square - Place Henri Will",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "place Henri Will STRASBOURG",
+        "cartodb_id": 16,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.759413421154023,
+          48.56174978989112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue de Châteauroux",
+        "numero_du_point_vert": 827,
+        "nom_du_point_vert": "Square Maryse Hilsz",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue de Châteauroux STRASBOURG",
+        "cartodb_id": 17,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.768310308456421,
+          48.5510890745613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue du Docteur François",
+        "numero_du_point_vert": 999,
+        "nom_du_point_vert": "Arboretum - Rue du Docteur François",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue du Docteur François STRASBOURG",
+        "cartodb_id": 18,
+        "exact": "check",
+        "BH":1,"BP":0,"EF":0,"JS":1,"BS":1,"JE":0,"MA":0,"MN":0,"MSR":2,"ML":0,"MPN":0,"SMA":1,"TE":0,"TO":0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.783266305923462,
+          48.60938929211986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue de l'Aubépine",
+        "numero_du_point_vert": 1644,
+        "nom_du_point_vert": "Berges de l'Aubépine",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PRSB - Promenades sur berges",
+        "adresse_complete": "rue de l'Aubépine STRASBOURG",
+        "cartodb_id": 19,
+        "exact": "check",
+        "BH":1,"BP":0,"EF":0,"JS":0,"BS":0,"JE":0,"MA":0,"MN":0,"MSR":0,"ML":0,"MPN":0,"SMA":1,"TE":0,"TO":0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.76982,
+          48.60522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue Virgile",
+        "numero_du_point_vert": 251,
+        "nom_du_point_vert": "Rue Virgile",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "ARAL2 - Arbres d'alignement",
+        "adresse_complete": "rue Virgile STRASBOURG",
+        "cartodb_id": 20,
+        "exact": "nok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.69766,
+          48.58114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue du Rhône",
+        "numero_du_point_vert": 741,
+        "nom_du_point_vert": "Parc du Bartischgut",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PARC - Parcs",
+        "adresse_complete": "rue du Rhône STRASBOURG",
+        "cartodb_id": 21,
+        "exact": "check",
+        "BH":0,"BP":0,"EF":1,"JS":0,"BS":0,"JE":0,"MA":0,"MN":1,"MSR":2,"ML":0,"MPN":0,"SMA":0,"TE":0,"TO":0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.739873528480529,
+          48.550240381541975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue du Rieth",
+        "numero_du_point_vert": 37,
+        "nom_du_point_vert": "Parc de la Bergerie",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PARC - Parcs",
+        "adresse_complete": "rue du Rieth STRASBOURG",
+        "cartodb_id": 22,
+        "exact": "check",
+        "BH":1,"BP":0,"EF":0,"JS":1,"BS":1,"JE":0,"MA":0,"MN":0,"MSR":1,"ML":0,"MPN":0,"SMA":2,"TE":0,"TO":1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.720566987991332,
+          48.600920373030874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "place du Bois de Rose",
+        "numero_du_point_vert": 888,
+        "nom_du_point_vert": "Square - Place du Bois de Rose",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "place du Bois de Rose STRASBOURG",
+        "cartodb_id": 23,
+        "exact": "true",
+        "BH":0,"BP":0,"EF":0,"JS":0,"BS":0,"JE":0,"MA":0,"MN":0,"MSR":3,"ML":0,"MPN":0,"SMA":0,"TE":0,"TO":1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7504682540893555,
+          48.569678626791614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "allée David Goldschmidt",
+        "numero_du_point_vert": 828,
+        "nom_du_point_vert": "Square de la Breitlach",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "allée David Goldschmidt STRASBOURG",
+        "cartodb_id": 24,
+        "exact": "check",
+        "BH":0,"BP":1,"EF":1,"JS":0,"BS":0,"JE":0,"MA":0,"MN":0,"MSR":2,"ML":0,"MPN":0,"SMA":0,"TE":0,"TO":0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.773964405059815,
+          48.53117832528587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "berge de l'Ill",
+        "numero_du_point_vert": 277,
+        "nom_du_point_vert": "Berges de l'Ill -(21)- Le long du quai du Brulig",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PRSB - Promenades sur berges",
+        "adresse_complete": "berge de l'Ill STRASBOURG",
+        "cartodb_id": 25,
+        "exact": "true",
+        "BH":1,"BP":0,"EF":0,"JS":0,"BS":0,"JE":0,"MA":1,"MN":0,"MSR":2,"ML":0,"MPN":0,"SMA":0,"TE":0,"TO":0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.722948789596557,
+          48.57163446390296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "avenue du Neuhof",
+        "numero_du_point_vert": 2334,
+        "nom_du_point_vert": "Square des Canonniers",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "avenue du Neuhof STRASBOURG",
+        "cartodb_id": 26,
+        "exact": "true",
+        "BH":1,"BP":0,"EF":1,"JS":0,"BS":0,"JE":3,"MA":0,"MN":1,"MSR":2,"ML":0,"MPN":0,"SMA":1,"TE":0,"TO":0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.766164541244507,
+          48.5549168937933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "mail Charles Pierre",
+        "numero_du_point_vert": 79,
+        "nom_du_point_vert": "Mail Charles Pierre",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "mail Charles Pierre STRASBOURG",
+        "cartodb_id": 27,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.720191478729247,
+          48.58745940788533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "parc de l'Etoile",
+        "numero_du_point_vert": 929,
+        "nom_du_point_vert": "Centre Administratif -(01)- Espaces verts extérieurs",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "BAPU2 - Accompagnement de bâtiments publics",
+        "adresse_complete": "parc de l'Etoile STRASBOURG",
+        "cartodb_id": 28,
+        "exact": "true",
+        "BH":0,"BP":0,"EF":0,"JS":2,"BS":1,"JE":0,"MA":1,"MN":0,"MSR":3,"ML":1,"MPN":0,"SMA":0,"TE":0,"TO":1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.750693559646606,
+          48.57389547350351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue de Chalampé",
+        "numero_du_point_vert": 671,
+        "nom_du_point_vert": "Square de Chalampé",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue de Chalampé STRASBOURG",
+        "cartodb_id": 29,
+        "exact": "true",
+        "BH":1,"BP":0,"EF":0,"JS":0,"BS":0,"JE":0,"MA":0,"MN":1,"MSR":3,"ML":0,"MPN":0,"SMA":0,"TE":0,"TO":1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.764126062393188,
+          48.567286084335905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "quai des Belges",
+        "numero_du_point_vert": 318,
+        "nom_du_point_vert": "Parc de la Citadelle -(01)- Secteur centre et Est",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PARC - Parcs",
+        "adresse_complete": "quai des Belges STRASBOURG",
+        "cartodb_id": 30,
+        "exact": "check",
+        "BH":1,"BP":0,"EF":0,"JS":0,"BS":1,"JE":0,"MA":1,"MN":1,"MSR":4,"ML":0,"MPN":0,"SMA":2,"TE":0,"TO":0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.773256301879882,
+          48.57450596425419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "quai des Alpes",
+        "numero_du_point_vert": 323,
+        "nom_du_point_vert": "Parc de la Citadelle -(04)- Secteur Ouest",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PARC - Parcs",
+        "adresse_complete": "quai des Alpes STRASBOURG",
+        "cartodb_id": 31,
+        "exact": "check",
+        "BH":0,"BP":0,"EF":1,"JS":0,"BS":0,"JE":1,"MA":0,"MN":0,"MSR":0,"ML":0,"MPN":0,"SMA":0,"TE":1,"TO":0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.76288,
+          48.5749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue du Hohwald",
+        "numero_du_point_vert": 2269,
+        "nom_du_point_vert": "Rue du Hohwald",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PRCV - Promenades et cheminements verts",
+        "adresse_complete": "rue du Hohwald STRASBOURG",
+        "cartodb_id": 32,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.730646729469299,
+          48.576688763323645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "place de l'Ile de France",
+        "numero_du_point_vert": 742,
+        "nom_du_point_vert": "Square - Place de l'Ile de France",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "place de l'Ile de France STRASBOURG",
+        "cartodb_id": 33,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.750752568244934,
+          48.550314953465566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue des Moulins",
+        "numero_du_point_vert": 410,
+        "nom_du_point_vert": "Square des Moulins",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue des Moulins STRASBOURG",
+        "cartodb_id": 34,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.741101980209351,
+          48.58066724893303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "route de Schirmeck",
+        "numero_du_point_vert": 180,
+        "nom_du_point_vert": "Parc Eugène Imbs (01)",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PARC - Parcs",
+        "adresse_complete": "route de Schirmeck STRASBOURG",
+        "cartodb_id": 35,
+        "exact": "nok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.721672058105468,
+          48.57425041088349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue des Cavaliers",
+        "numero_du_point_vert": 649,
+        "nom_du_point_vert": "Parc - Jardin des deux rives",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PARC - Parcs",
+        "adresse_complete": "rue des Cavaliers STRASBOURG",
+        "cartodb_id": 36,
+        "exact": "nok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.800056934356689,
+          48.56862790992038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue d'Orbey",
+        "numero_du_point_vert": 669,
+        "nom_du_point_vert": "Parc du Kurgarten",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PARC - Parcs",
+        "adresse_complete": "rue d'Orbey STRASBOURG",
+        "cartodb_id": 37,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.771807909011841,
+          48.560278194488234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue René Laennec",
+        "numero_du_point_vert": 183,
+        "nom_du_point_vert": "Square René Laennec",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue René Laennec STRASBOURG",
+        "cartodb_id": 38,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.708293199539185,
+          48.55931959303237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue de la Renaissance",
+        "numero_du_point_vert": 1500,
+        "nom_du_point_vert": "Square Lejeune",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "ACCR - Accompagnement de circulations routières",
+        "adresse_complete": "rue de la Renaissance STRASBOURG",
+        "cartodb_id": 39,
+        "exact": "nok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.79033,
+          48.61358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "quai de la Petite France",
+        "numero_du_point_vert": 409,
+        "nom_du_point_vert": "Square Louise Weiss",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "quai de la Petite France STRASBOURG",
+        "cartodb_id": 40,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.740463614463807,
+          48.580834047467306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "place Mathias Mérian",
+        "numero_du_point_vert": 474,
+        "nom_du_point_vert": "Square place Mathias Mérian",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "place Mathias Mérian STRASBOURG",
+        "cartodb_id": 41,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.754207253456116,
+          48.58238134380471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "place Mathieu Zell",
+        "numero_du_point_vert": 1103,
+        "nom_du_point_vert": "Place Mathieu Zell - (01) - Espace vert",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PPPL2 - Places et placettes plantées",
+        "adresse_complete": "place Mathieu Zell STRASBOURG",
+        "cartodb_id": 42,
+        "exact": "nok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7177,
+          48.59482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue du Rhin Tortu",
+        "numero_du_point_vert": 739,
+        "nom_du_point_vert": "Square du Rhin Tortu",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue du Rhin Tortu STRASBOURG",
+        "cartodb_id": 43,
+        "exact": "nok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7581071853637695,
+          48.548752471143004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue de la Ménagerie",
+        "numero_du_point_vert": 673,
+        "nom_du_point_vert": "Square de la Ménagerie",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue de la Ménagerie STRASBOURG",
+        "cartodb_id": 44,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.766700983047485,
+          48.57015783162891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "place des Peupliers",
+        "numero_du_point_vert": 1000,
+        "nom_du_point_vert": "Berges du Canal du Muhlwasser - (01)",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PRSB - Promenades sur berges",
+        "adresse_complete": "place des Peupliers STRASBOURG",
+        "cartodb_id": 45,
+        "exact": "nok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.77745,
+          48.6102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "cour de Mutzig",
+        "numero_du_point_vert": 2289,
+        "nom_du_point_vert": "Cour de Mutzig",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "cour de Mutzig STRASBOURG",
+        "cartodb_id": 46,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.732272148132323,
+          48.57990067837905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "route des Romains",
+        "numero_du_point_vert": 182,
+        "nom_du_point_vert": "Square Nicolas Appert",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "route des Romains STRASBOURG",
+        "cartodb_id": 47,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7167367935180655,
+          48.57892115464253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "place Nicolas Poussin",
+        "numero_du_point_vert": 264,
+        "nom_du_point_vert": "Place Nicolas Poussin",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PPPL2 - Places et placettes plantées",
+        "adresse_complete": "place Nicolas Poussin STRASBOURG",
+        "cartodb_id": 48,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.724305987358092,
+          48.5661110702598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue de Nontron",
+        "numero_du_point_vert": 2165,
+        "nom_du_point_vert": "Espace Nontron",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue de Nontron STRASBOURG",
+        "cartodb_id": 49,
+        "exact": "nok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.767387628555299,
+          48.54824110281354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "avenue de l'Europe",
+        "numero_du_point_vert": 968,
+        "nom_du_point_vert": "Parc de l'Orangerie - (01) - Nord",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PARC - Parcs",
+        "adresse_complete": "avenue de l'Europe STRASBOURG",
+        "cartodb_id": 50,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.772803008556365,
+          48.59173686395803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "",
+        "numero_du_point_vert": 1518,
+        "nom_du_point_vert": "Orangerie Zoo I",
+        "service_gestionnaire": "",
+        "typologie_nationale": "",
+        "adresse_complete": " STRASBOURG",
+        "cartodb_id": 51,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.773803472518921,
+          48.59128624898398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "Orphelins (place des)",
+        "numero_du_point_vert": 886,
+        "nom_du_point_vert": "Square - Place des Orphelins",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "Orphelins (place des) STRASBOURG",
+        "cartodb_id": 52,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.754378914833069,
+          48.57893180174171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue de Palerme",
+        "numero_du_point_vert": 2249,
+        "nom_du_point_vert": "Espace vert rue de Palerme",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "ACCR - Accompagnement de circulations routières",
+        "adresse_complete": "rue de Palerme STRASBOURG",
+        "cartodb_id": 53,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.764281630516052,
+          48.5759221324366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue des Arquebusiers",
+        "numero_du_point_vert": 621,
+        "nom_du_point_vert": "Petit Contades",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue des Arquebusiers STRASBOURG",
+        "cartodb_id": 54,
+        "exact": "true",
+        "BH":2,"BP":0,"EF":0,"JS":4,"BS":1,"JE":0,"MA":1,"MN":0,"MSR":3,"ML":1,"MPN":0,"SMA":0,"TE":0,"TO":1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.758117914199829,
+          48.59000357097556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue Mélanie",
+        "numero_du_point_vert": 998,
+        "nom_du_point_vert": "Parc de la Petite Orangerie",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PARC - Parcs",
+        "adresse_complete": "rue Mélanie STRASBOURG",
+        "cartodb_id": 55,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.784285545349121,
+          48.602552191452645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue de l'Ill",
+        "numero_du_point_vert": 1002,
+        "nom_du_point_vert": "Berges de l'Ill -(26)- Robertsau",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PRSB - Promenades sur berges",
+        "adresse_complete": "rue de l'Ill STRASBOURG",
+        "cartodb_id": 56,
+        "exact": "nok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.767977714538574,
+          48.6133350573361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "avenue François Mitterand",
+        "numero_du_point_vert": 1117,
+        "nom_du_point_vert": "Parc des Poteries",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PARC - Parcs",
+        "adresse_complete": "avenue François Mitterand STRASBOURG",
+        "cartodb_id": 57,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.694882154464722,
+          48.58646228811114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue Mélanie",
+        "numero_du_point_vert": 997,
+        "nom_du_point_vert": "Parc de Pourtalès",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PARC - Parcs",
+        "adresse_complete": "rue Mélanie STRASBOURG",
+        "cartodb_id": 58,
+        "exact": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.79979944229126,
+          48.60960387874071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue Staedel",
+        "numero_du_point_vert": 740,
+        "nom_du_point_vert": "Plaine de jeux de l'Extenwoerth",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue Staedel STRASBOURG",
+        "cartodb_id": 59,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.755033373832703,
+          48.55747334645201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "berge de l'Ill",
+        "numero_du_point_vert": 274,
+        "nom_du_point_vert": "Berges de l'Ill -(20)- Le long de la rue Raphaël",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PRSB - Promenades sur berges",
+        "adresse_complete": "berge de l'Ill STRASBOURG",
+        "cartodb_id": 60,
+        "exact": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.727583646774291,
+          48.56132908483981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "",
+        "numero_du_point_vert": 2292,
+        "nom_du_point_vert": "Square Reuss",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "",
+        "cartodb_id": 61,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.766346931457519,
+          48.54610679448206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue de Reutenbourg",
+        "numero_du_point_vert": 5,
+        "nom_du_point_vert": "Place rue de Reutenbourg",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PPPL2 - Places et placettes plantées",
+        "adresse_complete": "rue de Reutenbourg STRASBOURG",
+        "cartodb_id": 62,
+        "exact": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.703368663787842,
+          48.60080685326635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue de la Digue du Rhin",
+        "numero_du_point_vert": 650,
+        "nom_du_point_vert": "Square rue de la Digue",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue de la Digue du Rhin STRASBOURG",
+        "cartodb_id": 63,
+        "exact": "nok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.798297405242919,
+          48.57346599594214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "170, route du Rhin",
+        "numero_du_point_vert": 660,
+        "nom_du_point_vert": "Esp. verts Route du Rhin -(01)- Abord école du Rhin",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "ARAL2 - Arbres d'alignement",
+        "adresse_complete": "",
+        "cartodb_id": 64,
+        "exact": "nok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.796205,
+          48.572879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue de la Rotonde",
+        "numero_du_point_vert": 80,
+        "nom_du_point_vert": "Square de la Rotonde",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue de la Rotonde STRASBOURG",
+        "cartodb_id": 65,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7251482009887695,
+          48.592391490363006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "place Sainte Aurélie",
+        "numero_du_point_vert": 411,
+        "nom_du_point_vert": "Square place Sainte Aurélie",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "place Sainte Aurélie STRASBOURG",
+        "cartodb_id": 66,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7326422929763785,
+          48.58160060386657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "place Saint Florent",
+        "numero_du_point_vert": 42,
+        "nom_du_point_vert": "Place Saint Florent",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PPPL2 - Places et placettes plantées",
+        "adresse_complete": "place Saint Florent STRASBOURG",
+        "cartodb_id": 67,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7220529317855835,
+          48.596762545215185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "quai Saint-Jean",
+        "numero_du_point_vert": 125,
+        "nom_du_point_vert": "Square Saint Jean - Bibliothèque",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "quai Saint-Jean STRASBOURG",
+        "cartodb_id": 68,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.73962140083313,
+          48.58452476781245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue de l'Ill",
+        "numero_du_point_vert": 1002,
+        "nom_du_point_vert": "Berges de l'Ill -(26)- Robertsau",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PRSB - Promenades sur berges",
+        "adresse_complete": "rue de l'Ill STRASBOURG",
+        "cartodb_id": 69,
+        "exact": "nok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.76883602142334,
+          48.61244130202475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue du Schnokeloch",
+        "numero_du_point_vert": 184,
+        "nom_du_point_vert": "Parc Albert Schweitzer - CREPS - Arboretum",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PARC - Parcs",
+        "adresse_complete": "rue du Schnokeloch STRASBOURG",
+        "cartodb_id": 70,
+        "exact": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.712638378143311,
+          48.57462664178576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "avenue Schutzenberger",
+        "numero_du_point_vert": 368,
+        "nom_du_point_vert": "Square Tivoli",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "avenue Schutzenberger STRASBOURG",
+        "cartodb_id": 71,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.760177850723267,
+          48.59574432190582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue des Ciriers",
+        "numero_du_point_vert": 802,
+        "nom_du_point_vert": "Clos des Vanneaux",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue des Ciriers STRASBOURG",
+        "cartodb_id": 72,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7591586112976065,
+          48.55714314524897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue du Vieil Armand",
+        "numero_du_point_vert": 677,
+        "nom_du_point_vert": "Berge du Ziegelwasser -(04)- R.Soultz-R.Vieil Armand",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PRSB - Promenades sur berges",
+        "adresse_complete": "rue du Vieil Armand STRASBOURG",
+        "cartodb_id": 73,
+        "exact": "nok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.77679145336151,
+          48.56656545960515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue de l'Aubépine",
+        "numero_du_point_vert": 1644,
+        "nom_du_point_vert": "Berges de l'Aubépine",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PRSB - Promenades sur berges",
+        "adresse_complete": "rue de l'Aubépine STRASBOURG",
+        "cartodb_id": 74,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.771024703979492,
+          48.60833408017988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adresse": "rue Amélie de Berckheim",
+        "nom_du_point_vert": "Mail Saint François",
+        "typologie_nationale": "Jardins et squares",
+        "cartodb_id": 75,
+        "exact": "check",
+        "BH":1,"BP":0,"EF":0,"JS":0,"BS":0,"JE":3,"MA":0,"MN":0,"MSR":0,"ML":0,"MPN":0,"SMA":1,"TE":0,"TO":0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.78581976890564,
+          48.60158020161098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue Boecklin",
+        "numero_du_point_vert": 1134,
+        "nom_du_point_vert": "Square place du Corps de Garde",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue Boecklin STRASBOURG",
+        "cartodb_id": 76,
+        "exact": "ok",
+        "BH":0,"BP":0,"EF":0,"JS":0,"BS":0,"JE":0,"MA":0,"MN":0,"MSR":2,"ML":0,"MPN":0,"SMA":1,"TE":0,"TO":0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.780348062515259,
+          48.599948351786985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "place du Bocage",
+        "numero_du_point_vert": 375,
+        "nom_du_point_vert": "Place du Bocage",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PPPL2 - Places et placettes plantées",
+        "adresse_complete": "place du Bocage STRASBOURG",
+        "cartodb_id": 77,
+        "exact": "true",
+        "BH":1,"BP":0,"EF":0,"JS":0,"BS":0,"JE":0,"MA":0,"MN":0,"MSR":1,"ML":1,"MPN":0,"SMA":0,"TE":0,"TO":1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.765955328941345,
+          48.597039271348436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "quai de la Tuilerie",
+        "numero_du_point_vert": 6135,
+        "nom_du_point_vert": "Berge du Ziegelwasser -(14)- Promenade de la Tuilerie",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PRSB - Promenades sur berges",
+        "adresse_complete": "quai de la Tuilerie STRASBOURG",
+        "cartodb_id": 78,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7750372886657715,
+          48.568187738255915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "quai des Alpes",
+        "numero_du_point_vert": 323,
+        "nom_du_point_vert": "Parc de la Citadelle -(04)- Secteur Ouest",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PARC - Parcs",
+        "adresse_complete": "quai des Alpes STRASBOURG",
+        "cartodb_id": 79,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.776217460632323,
+          48.575989568027246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "place de l'Esplanade",
+        "numero_du_point_vert": 332,
+        "nom_du_point_vert": "Place de l'Esplanade",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "ACCR - Accompagnement de circulations routières",
+        "adresse_complete": "place de l'Esplanade STRASBOURG",
+        "cartodb_id": 80,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.769764065742492,
+          48.57623446494206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue des Colverts",
+        "numero_du_point_vert": 6179,
+        "nom_du_point_vert": "Square du Glaubitz",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue des Colverts STRASBOURG",
+        "cartodb_id": 81,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.763664722442627,
+          48.5449028770319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "place des Halles",
+        "numero_du_point_vert": 130,
+        "nom_du_point_vert": "Place des Halles",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PPPL2 - Places et placettes plantées",
+        "adresse_complete": "place des Halles STRASBOURG",
+        "cartodb_id": 82,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.741445302963256,
+          48.587981024982504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue de Châteauroux",
+        "numero_du_point_vert": 3010,
+        "nom_du_point_vert": "Square Icare",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue de Châteauroux STRASBOURG",
+        "cartodb_id": 83,
+        "exact": "nok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.770397067070007,
+          48.55160396506206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "route de Schirmeck",
+        "numero_du_point_vert": 181,
+        "nom_du_point_vert": "Parc Eugène Imbs (02)",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PARC - Parcs",
+        "adresse_complete": "route de Schirmeck STRASBOURG",
+        "cartodb_id": 84,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.724737823009491,
+          48.57516081387059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue de la Lamproie",
+        "numero_du_point_vert": 1525,
+        "nom_du_point_vert": "Square de la Lamproie",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "ACCR - Accompagnement de circulations routières",
+        "adresse_complete": "rue de la Lamproie STRASBOURG",
+        "cartodb_id": 85,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.790540456771851,
+          48.599465881741615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "place Memling",
+        "numero_du_point_vert": 288,
+        "nom_du_point_vert": "Place Memling",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PPPL2 - Places et placettes plantées",
+        "adresse_complete": "place Memling STRASBOURG",
+        "cartodb_id": 86,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.719923257827759,
+          48.56372900931604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue du Neufeld",
+        "numero_du_point_vert": 889,
+        "nom_du_point_vert": "Square du Neufeld",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue du Neufeld STRASBOURG",
+        "cartodb_id": 87,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.756149172782898,
+          48.56673940444586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "boulevard de l'Orangerie",
+        "numero_du_point_vert": 983,
+        "nom_du_point_vert": "Parc de l'Orangerie - (02) - Sud",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PARC - Parcs",
+        "adresse_complete": "boulevard de l'Orangerie STRASBOURG",
+        "cartodb_id": 88,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.778567075729369,
+          48.59095094625786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue Lamartine",
+        "numero_du_point_vert": 2,
+        "nom_du_point_vert": "Petit Bois de Hautepierre",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue Lamartine STRASBOURG",
+        "cartodb_id": 89,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.700970768928528,
+          48.59346300145978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue Mathias Grunewald",
+        "numero_du_point_vert": 283,
+        "nom_du_point_vert": "Place rue Mathias Grunewald - Centre socio-culturel",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PPPL2 - Places et placettes plantées",
+        "adresse_complete": "rue Mathias Grunewald STRASBOURG",
+        "cartodb_id": 90,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.723152637481689,
+          48.567207987570555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue de Hochfelden",
+        "numero_du_point_vert": 81,
+        "nom_du_point_vert": "Square de Hochfelden",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue de Hochfelden STRASBOURG",
+        "cartodb_id": 91,
+        "exact": "nok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7262479066848755,
+          48.597440166775854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue Joseph Weydmann",
+        "numero_du_point_vert": 2267,
+        "nom_du_point_vert": "Square de la peupleraie",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "rue Joseph Weydmann STRASBOURG",
+        "cartodb_id": 92,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.755542993545531,
+          48.547015928503335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "place de la Porte Blanche",
+        "numero_du_point_vert": 412,
+        "nom_du_point_vert": "Square place de la Porte Blanche",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "JASQ - Jardins et squares",
+        "adresse_complete": "place de la Porte Blanche STRASBOURG",
+        "cartodb_id": 93,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.731376290321349,
+          48.57961676040891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "rue du Rempart",
+        "numero_du_point_vert": 2242,
+        "nom_du_point_vert": "Rue du Rempart (03)",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "ACCR - Accompagnement de circulations routières",
+        "adresse_complete": "rue du Rempart STRASBOURG",
+        "cartodb_id": 94,
+        "exact": "nok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.730169296264648,
+          48.58610388794089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adresse": "square du Président Allende",
+        "nom_du_point_vert": "Square du Président Allende",
+        "typologie_nationale": "Jardins et squares",
+        "cartodb_id": 95,
+        "exact": "ok",
+        "BH":0,"BP":0,"EF":1,"JS":0,"BS":1,"JE":0,"MA":0,"MN":0,"MSR":3,"ML":0,"MPN":0,"SMA":2,"TE":0,"TO":0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.760923504829406,
+          48.57890340947226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "10, place Byron",
+        "numero_du_point_vert": 2945,
+        "nom_du_point_vert": "Aire de jeux - Jardin participatif Jacqueline",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "EESE2 - Espaces des établissements sociaux et éducatifs",
+        "adresse_complete": "10, place Byron STRASBOURG",
+        "cartodb_id": 96,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6975,
+          48.59534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "place Saint Antoine",
+        "numero_du_point_vert": 38,
+        "nom_du_point_vert": "Place Saint Antoine - (01) - Aire de jeux",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PPPL2 - Places et placettes plantées",
+        "adresse_complete": "place Saint Antoine STRASBOURG",
+        "cartodb_id": 97,
+        "exact": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.708298563957214,
+          48.59854704736664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "piste Nicolas Frantz",
+        "numero_du_point_vert": 676,
+        "nom_du_point_vert": "Berge du Ziegelwasser -(03)- Rue de Soultz",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "PRSB - Promenades sur berges",
+        "adresse_complete": "piste Nicolas Frantz STRASBOURG",
+        "cartodb_id": 98,
+        "exact": "check"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.777547836303711,
+          48.56329234514198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "commune": "STRASBOURG",
+        "adresse": "allée Jacqueline Auriol",
+        "numero_du_point_vert": 2328,
+        "nom_du_point_vert": "Allée Jacqueline Auriol",
+        "service_gestionnaire": "Espaces verts",
+        "typologie_nationale": "ACCR - Accompagnement de circulations routières",
+        "adresse_complete": "allée Jacqueline Auriol STRASBOURG",
+        "cartodb_id": 99,
+        "exact": "nok",
+        "BH":1,"BP":0,"EF":0,"JS":0,"BS":0,"JE":3,"MA":0,"MN":0,"MSR":3,"ML":0,"MPN":0,"SMA":1,"TE":0,"TO":0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.768106460571289,
+          48.546650146075564
+        ]
+      }
+    }
+  ]
+}

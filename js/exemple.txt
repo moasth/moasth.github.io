@@ -1,0 +1,215 @@
+http://support.mapbox.com/discussions/mapboxjs/619-filter-markers-csv-date
+http://temp.sharesand.info/prison/index3.html
+http://temp.sharesand.info/prison/index6.html
+
+
+
+
+
+                       <script>
+//n3b.Morts_prison for better background
+var map = L.mapbox.map('map', 'n3b.map-xb4fp4td', { zoomControl: false })
+    .setView([47.145894, 2.581787], 6);
+
+var markerLayer = L.mapbox.markerLayer()
+    .loadURL('http://temp.sharesand.info/prison/mortsPrisons.geojson')
+    .addTo(map);
+
+var douze = document.getElementById('douze');
+var all = document.getElementById('filter-all');
+
+    douze.onclick = function(e) {
+        all.className = '';
+        this.className = 'active';
+        // The setFilter function takes a GeoJSON feature object
+        // and returns true to show it or false to hide it.
+        markerLayer.setFilter(function(f) {
+            // reGex on DateTime
+              var stryear = f.properties['DateTime']; 
+              var reg20 = /20\d*/g;
+            // Select only the first array
+              return stryear.match(reg20)[0] == '2012';
+        });
+        return false;
+    };
+
+    all.onclick = function() {
+        douze.className = '';
+        this.className = 'active';
+        markerLayer.setFilter(function(f) {
+            // Returning true for all markers shows everything.
+            return true;
+        });
+        return false;
+    };
+
+
+// Listen for individual marker clicks. Date format will be changed.
+markerLayer.on('click',function(e) {
+    e.layer.unbindPopup();
+
+    var feature = e.layer.feature;
+    var info = '<h2>' + feature.properties.Prison + ' : ' + feature.properties.NombreParPrisonEtParAn + ' mort(e)(s) en 2013' + '</h2>' +
+               'Nom : ' + feature.properties.Noms + '<br>' +
+               'Mort(e) le : ' + feature.properties.DateTime + '<br>' +
+               'Age : ' + feature.properties.Age + '<br>' +
+               'Sexe : ' + feature.properties.Sexe + '<br>' + 
+               'Mort(e) par: ' + feature.properties.MortPar ;
+
+    document.getElementById('info').innerHTML = info;
+});
+
+// Clear the tooltip when map is clicked
+map.on('click',function(e){
+    document.getElementById('info').innerHTML = '';
+});
+
+
+</script>
+
+
+
+=====================================================================================================
+
+
+http://temp.sharesand.info/prison/index6.html
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Les morts des prisons françaises</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+  <script src='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
+  <link href='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css' rel='stylesheet' />
+  <link href='//mapbox.com/base/latest/base.css' rel='stylesheet' />
+  <!--[if lte IE 8]>
+    <link href='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet' >
+  <![endif]-->
+  <style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+    #map-ui {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 100;
+    }
+
+    #map-ui ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #map-ui a {
+        font-size: 13px;
+        background: #FFF;
+        color: #3C4E5A;
+        display: block;
+        margin: 0;
+        padding: 0;
+        border: 1px solid #BBB;
+        border-bottom-width: 0;
+        min-width: 138px;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    #map-ui a:hover {
+        background: #ECF5FA;
+    }
+
+    #map-ui li:last-child a {
+        border-bottom-width: 1px;
+        -webkit-border-radius: 0 0 3px 3px;
+        border-radius: 0 0 3px 3px;
+    }
+
+    #map-ui li:first-child a {
+        -webkit-border-radius: 3px 3px 0 0;
+        border-radius: 3px 3px 0 0;
+    }
+
+    #map-ui a.active {
+        background: #3887BE;
+        border-color: #3887BE;
+        color: #FFF;
+    }
+  </style>
+</head>
+<body>
+<style>
+  #map { position:absolute; top:0; bottom:0; right:300px; left:0; }
+  #info {
+      position:absolute; top: 0; left: 0;
+      bottom: 0; width: 290px; background:#333; color: #fff;
+      padding:20px;
+  }
+  h1 { margin-top:0; }
+</style>
+<div id='map-ui'>
+    <ul>
+        <li><a href='#' class='filter' id='douze' onclick="selectyear(this);" name='2008'>2008</a></li>
+        <li><a href='#' class='filter' id='douze' onclick="selectyear(this);" name='2009'>2009</a></li>
+        <li><a href='#' class='filter' id='douze' onclick="selectyear(this);" name='2010'>2010</a></li>
+        <li><a href='#' class='filter' id='douze' onclick="selectyear(this);" name='2011'>2011</a></li>
+        <li><a href='#' class='filter' id='douze' onclick="selectyear(this);" name='2012'>2012</a></li>
+        <li><a href='#' class='filter' id='douze' onclick="selectyear(this);" name='2013'>2013</a></li>
+        <li><a href='#' class='active' id='filter-all' onclick="selectyear(this);" name="all">Toutes les années</a></li>
+    </ul>
+</div>
+<div id='map'></div>
+<div id='info'></div>
+<script type='text/javascript'>
+//n3b.Morts_prison for better background
+var map = L.mapbox.map('map', 'n3b.map-xb4fp4td', { zoomControl: false })
+    .setView([47.145894, 2.581787], 6);
+
+var markerLayer = L.mapbox.markerLayer()
+    .loadURL('http://temp.sharesand.info/prison/mortsPrisons.geojson')
+    .addTo(map);
+
+// document.querySelector('video')
+
+var year = "all";
+function selectyear(me)
+{
+    var year = me.name;
+       
+        document.querySelector('#map-ui a.active').classList.remove('active');
+        me.classList.add('active');
+       
+        markerLayer.setFilter(function(f) {
+            if (year == "all") return true;
+            return (f.properties['DateTime'].indexOf(year) != -1);
+        });
+};
+
+// Listen for individual marker clicks. Date format will be changed.
+markerLayer.on('click',function(e) {
+    //markerLayer._geojson.features.length;
+    e.layer.unbindPopup();
+    var feature = e.layer.feature;
+    //console.warn(feature);
+    var info = '<h2>' + feature.properties.Prison + ' : ' + feature.properties.NombreParPrisonEtParAn + ' mort(e)(s) en 2013' + '</h2>' +
+               'Nom : ' + feature.properties.Noms + '<br>' +
+               'Mort(e) le : ' + feature.properties.DateTime + '<br>' +
+               'Age : ' + feature.properties.Age + '<br>' +
+               'Sexe : ' + feature.properties.Sexe + '<br>' +
+               'Mort(e) par: ' + feature.properties.MortPar ;
+
+    document.getElementById('info').innerHTML = info;
+});
+
+// Clear the tooltip when map is clicked
+map.on('click',function(e){
+    document.getElementById('info').innerHTML = '';
+});
+
+
+</script>
+
+</body>
+</html> 

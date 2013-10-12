@@ -61,7 +61,7 @@ var Map = function () {
                 e.preventDefault();
                 e.stopPropagation();
                 _map.locate();
-                _gaq.push(['_trackEvent', 'Châteaux', 'Géolocalisation']);
+                //_gaq.push(['_trackEvent', 'Châteaux', 'Géolocalisation']);
             };
         }
 
@@ -158,7 +158,8 @@ var Map = function () {
     };
 
     return {
-        init: init
+        init: init,
+        _config: config
     };
 }();
 
