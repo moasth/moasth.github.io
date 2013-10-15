@@ -1892,5 +1892,24 @@
         ]
       }
     }
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Château de Kolbsheim",
+        "wikipedia": "Château_de_Kolbsheim",
+        "cartodb_id": 105,
+        "created_at": "2013-10-15T21:29:03.710Z",
+        "updated_at": "2013-10-15T20:29:03.710Z",
+        "pics": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5838,
+          48.5605
+        ]
+      }
+    }
   ]
 }
