@@ -196,6 +196,16 @@ ul, ol {
   background: none !important;
 }
 
+.leaflet-container {
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 52px;
+}
+
 .leaflet-control {
   border-radius: 0;
   left: 0;
@@ -218,6 +228,10 @@ ul, ol {
   position: fixed;
 }
 
+.leaflet-control-attribution > a {
+  border: none;
+}
+
 .leaflet-control-container #geolocate{
   font-size: 16px;
 }
@@ -226,7 +240,6 @@ ul, ol {
   font-size: 16px;
   top: 52px;
 }
-
 
 .leaflet-control-mapbox-geocoder .leaflet-control-mapbox-geocoder-wrap {
   left: 30px;
@@ -247,6 +260,32 @@ ul, ol {
 
 .leaflet-control-zoom {
   top: 62px;
+}
+
+.leaflet-popup-content .image { 
+  position: relative; 
+  width: 100%; /* for IE 6 */
+}
+
+.leaflet-popup-content h4 { 
+  position: absolute; 
+  bottom: -6px;
+  left: 5px;
+  line-height: 26px;
+  margin-top: 2px; 
+  width: 100%; 
+}
+
+.leaflet-popup-content h4 span {
+  color: white;
+  background: rgb(36, 166, 232);
+  background: rgba(36, 166, 232, 0.8);
+  padding-bottom: 1px;
+  padding-top: 1px;
+}
+
+.leaflet-popup-content-wrapper {
+  border: solid #24A6E8 1px
 }
 
 .loading {

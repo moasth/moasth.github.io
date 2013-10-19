@@ -1,5 +1,3 @@
-// Display png logo when svg isn't supported
-// Update
 if(!Modernizr.svg) {
 	var imgs = $('img[data-fallback]');
 	imgs.attr('src', imgs.data('fallback'));
@@ -7,9 +5,11 @@ if(!Modernizr.svg) {
 
 var map = L.mapbox.map('map', 'moasth.map-y1unod03,moasth.map-czvq0pvt', 
     { 
+        center: [48.5827,7.7477],
+        zoom: 13,
         minZoom: 11, 
         maxZoom: 19,
-        //maxBounds: [[48.356705,7.35878],[48.74238,8.563843]] // TODO
+        maxBounds: [[48.0303,6.3775],[49.0342,9.1571]]
     });
 
 var markerLayer = L.mapbox.markerLayer().addTo(map);
@@ -21,23 +21,34 @@ markerLayer.on('layeradd', function(e) {
     
     feature['marker-color'] = '#24A6E8';
     marker.setIcon(L.mapbox.marker.icon(feature));
+
+    var data = feature.properties;
+
+    var description = '';
+    if (data.BS > 0) description += 'Bac à sable : ' + data.BS + '<br/>';
+    if (data.BH > 0) description += 'Balançoire horizontale : ' + data.BH + '<br/>';
+    if (data.BP > 0) description += 'Balançoire portique : ' + data.BP + '<br/>';
+    if (data.EF > 0) description += 'Escalade ou filets : ' + data.EF + '<br/>';
+    if (data.JE > 0) description += 'Jeu d\'équilibre : ' + data.JE + '<br/>';
+    if (data.JS > 0) description += 'Jeu de sable : ' + data.JS + '<br/>';
+    if (data.MA > 0) description += 'Maisonnette : ' + data.MA + '<br/>';
+    if (data.MN > 0) description += 'Manège : ' + data.MN + '<br/>';
+    if (data.MSR > 0) description += 'Mobile sur ressort : ' + data.MSR + '<br/>';
+    if (data.ML > 0) description += 'Mobilier ludique : ' + data.ML + '<br/>';
+    if (data.MPN > 0) description += 'Mobilier pique nique : ' + data.MPN + '<br/>';
+    if (data.SMA > 0) description += 'Structure multi-activité : ' + data.SMA + '<br/>';
+    if (data.TE > 0) description += 'Téléphérique : ' + data.TE + '<br/>';
+    if (data.TO > 0) description += 'Toboggan : ' + data.TO + '<br/>';
+
+    var popupContent = '<div class="image"><img src="../img/adj1.jpg"><h4><span>' + data.libelle + '</span></h4></div>' + '<small><p class="muted">' + data.adresse + '</p><p>' + description + '</p></small>';
+
+    marker.bindPopup(popupContent,{
+        closeButton: false,
+        minWidth: 320
+    });
 });
 
 markerLayer.on('click',function(e) {
-    //markerLayer._geojson.features.length;
-/*    e.layer.unbindPopup();
-    var feature = e.layer.feature;
-    //console.warn(feature);
-    var info = '<h2>' + feature.properties.Prison + ' : ' + feature.properties.NombreParPrisonEtParAn + ' mort(e)(s) en 2013' + '</h2>' +
-               'Nom : ' + feature.properties.Noms + '<br>' +
-               'Mort(e) le : ' + feature.properties.DateTime + '<br>' +
-               'Age : ' + feature.properties.Age + '<br>' +
-               'Sexe : ' + feature.properties.Sexe + '<br>' +
-               'Mort(e) par: ' + feature.properties.MortPar ;
-
-    document.getElementById('info').innerHTML = info;
-*/
-
     if(_selectedLayer) _setIcon(_selectedLayer, false);
     _setIcon(e.layer, true);
     _selectedLayer = e.layer;
