@@ -42,20 +42,14 @@ markerLayer.on('layeradd', function(e) {
     if (data.TO > 0) description += 'Toboggan : ' + data.TO + '<br/>';
 
     var picnum = getRandomInt(1, 4);
-    /*<div class="alert">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <strong>Warning!</strong> Best check yo self, you're not looking too good.
-</div>*/
     var warning = '';
-    if (data.pos != 'ok') warning = '<div class="alert alert-info"><strong>Remarque </strong>La position sur la carte de cette aire de jeux n\'a pas été vérifiée.</div>' 
-
+    if (data.pos != 'ok') warning = '<div class="alert alert-info"><strong>Remarque </strong>La position de cette aire de jeux n\'a pas pu être déterminée avec précision.</div>' 
     var displayPage = '<a onClick="javascript:displayFilter(); return false;" id="js-display-page" class="close-icon" href="#">Afficher les filtres</a><div class="clearfix"></div>';
-
     var popupContent = '<div class="image"><img src="../img/adj' + picnum + '.jpg"><h4><span>' + data.libelle + '</span></h4></div>' + '<small><p class="muted">' + data.adresse + '</p>' + warning + '<p>' + description + '</p></small>' + displayPage;
 
     marker.bindPopup(popupContent,{
-        closeButton: false,
-        minWidth: 320
+        closeButton: true,
+        minWidth: 280
     });
 });
 
@@ -134,3 +128,19 @@ $page.find('#js-close-page').click(function(e){
 function displayFilter() {
     $('#js-page').removeClass('invisible');
 };
+
+function checkAll(formname, checktoggle)
+{
+  var checkboxes = new Array(); 
+  checkboxes = document[formname].getElementsByTagName('input');
+ 
+  for (var i=0; i<checkboxes.length; i++)  {
+    if (checkboxes[i].type == 'checkbox')   {
+      checkboxes[i].checked = checktoggle;
+      if (checktoggle)
+        $(checkboxes[i].parentNode).addClass("checked");
+    else 
+        $(checkboxes[i].parentNode).removeClass("checked");
+    }
+  }
+}
