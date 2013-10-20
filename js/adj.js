@@ -13,7 +13,7 @@ var map = L.mapbox.map('map', 'moasth.map-y1unod03,moasth.map-czvq0pvt',
     });
 
 var markerLayer = L.mapbox.markerLayer().addTo(map);
-var _selectedLayer;
+var selectedLayer;
 
 markerLayer.on('layeradd', function(e) {
     var marker = e.layer,
@@ -24,6 +24,7 @@ markerLayer.on('layeradd', function(e) {
 
     var data = feature.properties;
 
+    // Oui je sais, il faut factoriser
     var description = '';
     if (data.BS > 0) description += 'Bac à sable : ' + data.BS + '<br/>';
     if (data.BH > 0) description += 'Balançoire horizontale : ' + data.BH + '<br/>';
@@ -40,7 +41,17 @@ markerLayer.on('layeradd', function(e) {
     if (data.TE > 0) description += 'Téléphérique : ' + data.TE + '<br/>';
     if (data.TO > 0) description += 'Toboggan : ' + data.TO + '<br/>';
 
-    var popupContent = '<div class="image"><img src="../img/adj1.jpg"><h4><span>' + data.libelle + '</span></h4></div>' + '<small><p class="muted">' + data.adresse + '</p><p>' + description + '</p></small>';
+    var picnum = getRandomInt(1, 4);
+    /*<div class="alert">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <strong>Warning!</strong> Best check yo self, you're not looking too good.
+</div>*/
+    var warning = '';
+    if (data.pos != 'ok') warning = '<div class="alert alert-info"><strong>Remarque </strong>La position sur la carte de cette aire de jeux n\'a pas été vérifiée.</div>' 
+
+    var displayPage = '<a onClick="javascript:displayFilter(); return false;" id="js-display-page" class="close-icon" href="#">Afficher les filtres</a><div class="clearfix"></div>';
+
+    var popupContent = '<div class="image"><img src="../img/adj' + picnum + '.jpg"><h4><span>' + data.libelle + '</span></h4></div>' + '<small><p class="muted">' + data.adresse + '</p>' + warning + '<p>' + description + '</p></small>' + displayPage;
 
     marker.bindPopup(popupContent,{
         closeButton: false,
@@ -49,9 +60,9 @@ markerLayer.on('layeradd', function(e) {
 });
 
 markerLayer.on('click',function(e) {
-    if(_selectedLayer) _setIcon(_selectedLayer, false);
-    _setIcon(e.layer, true);
-    _selectedLayer = e.layer;
+    if(selectedLayer) setIcon(selectedLayer, false);
+    setIcon(e.layer, true);
+    selectedLayer = e.layer;
 });
 
 markerLayer.loadURL('../data/airesdejeux.geojson')
@@ -75,33 +86,51 @@ function change() {
     return false;
 }
 
- function _setIcon(e, isSelected) {
-        var iconUrl = 'http://a.tiles.mapbox.com/v3/marker/';
-        var layer = e.target == null ? e : e.target;
-        var iconElem = L.DomUtil.get(layer._icon);
-        var icon, height, width, marginLeft, marginTop;
+function setIcon(e, isSelected) {
+    var iconUrl = 'http://a.tiles.mapbox.com/v3/marker/';
+    var layer = e.target == null ? e : e.target;
+    var iconElem = L.DomUtil.get(layer._icon);
+    var icon, height, width, marginLeft, marginTop;
 
-        if (isSelected) {
-            icon = 'pin-l-circle-stroked+24A6E8.png';
-            height = '90px';
-            width = '35px';
-            marginLeft = '-17.5px';
-            marginTop = '-45px';
-        } else {
-            icon = 'pin-m+24A6E8.png';
-            height = '70px';
-            width = '30px';
-            marginLeft = '-15px';
-            marginTop = '-35px';
-        }
+    if (isSelected) {
+        icon = 'pin-l-circle-stroked+24A6E8.png';
+        height = '90px';
+        width = '35px';
+        marginLeft = '-17.5px';
+        marginTop = '-45px';
+    } else {
+        icon = 'pin-m+24A6E8.png';
+        height = '70px';
+        width = '30px';
+        marginLeft = '-15px';
+        marginTop = '-35px';
+    }
 
-        if(iconElem) {
-            iconElem.src = iconUrl + icon;
-            iconElem.style.height = height;
-            iconElem.style.width = width;
-            iconElem.style.marginLeft = marginLeft;
-            iconElem.style.marginTop = marginTop;
-        }
-    };
+    if(iconElem) {
+        iconElem.src = iconUrl + icon;
+        iconElem.style.height = height;
+        iconElem.style.width = width;
+        iconElem.style.marginLeft = marginLeft;
+        iconElem.style.marginTop = marginTop;
+    }
+};
 
 filters.onchange = change;
+
+// Returns a random integer between min and max
+// Using Math.round() will give you a non-uniform distribution!
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+// Fermeture de la pop-up de contenu sur mobile
+var $page = $('#js-page');
+$page.find('#js-close-page').click(function(e){
+    e.preventDefault();
+    e.stopPropagation();
+    $page.addClass('invisible');
+});
+
+function displayFilter() {
+    $('#js-page').removeClass('invisible');
+};

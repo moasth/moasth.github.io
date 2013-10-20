@@ -284,8 +284,16 @@ ul, ol {
   padding-top: 1px;
 }
 
+.leaflet-popup-content p {
+  margin: 0 0 10px;
+}
+
 .leaflet-popup-content-wrapper {
   border: solid #24A6E8 1px
+}
+
+.leaflet-popup-content-wrapper .close-icon {
+  margin-top: 0;
 }
 
 .loading {
