@@ -233,6 +233,13 @@ ul, ol {
   padding-top: 52px;
 }
 
+.leaflet-container a.leaflet-popup-close-button{
+  right: 1px;
+  top: 2px;
+  font: 25px/10px Tahoma, Verdana, sans-serif;
+  font-weight: normal;
+}
+
 .leaflet-control {
   border-radius: 0;
   left: 0;
@@ -300,7 +307,7 @@ ul, ol {
   left: 5px;
   line-height: 26px;
   margin-top: 2px; 
-  width: 100%; 
+  width: 95%; 
 }
 
 .leaflet-popup-content h4 span {
