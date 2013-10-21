@@ -144,3 +144,40 @@ function checkAll(formname, checktoggle)
     }
   }
 }
+
+if (!Modernizr.geolocation) {
+    // do something ?
+} else {
+    $(".leaflet-control-zoom").append('<a id="geolocate" class="icon-gpsoff-gps"></a>');         
+
+    var geolocate = document.getElementById('geolocate');
+    geolocate.onclick = function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        map.locate();
+        //_gaq.push(['_trackEvent', 'Châteaux', 'Géolocalisation']);
+    };
+}
+
+// Once we've got a position, zoom and center the map on it, and add a single marker.
+map.on('locationfound', function(e) {
+    map.markerLayer.clearLayers();
+    $("#geolocate").removeClass("icon-gpsoff-gps").addClass("icon-gpson");
+    map.fitBounds(e.bounds);
+    map.markerLayer.setGeoJSON({
+        type: "Feature",
+        geometry: {
+            type: "Point",
+            coordinates: [e.latlng.lng, e.latlng.lat]
+        },
+        properties: {
+            'title': 'Votre position actuelle',
+            'marker-color': '#EC3C4D'
+        }
+    });
+});
+
+// If the user chooses not to allow their location to be shared, display an error message.
+map.on('locationerror', function() {
+    // do something ?
+});
