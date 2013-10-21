@@ -235,8 +235,8 @@ ul, ol {
 
 .leaflet-container a.leaflet-popup-close-button{
   right: 1px;
-  top: 2px;
-  font: 25px/10px Tahoma, Verdana, sans-serif;
+  top: 1px;
+  font: 24px/10px Tahoma, Verdana, sans-serif;
   font-weight: normal;
 }
 
