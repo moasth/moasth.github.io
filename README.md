@@ -1,6 +1,6 @@
 # moasth.github.io
 L'Alsace en cartes ! 
-Visualsace est un site web personnel proposant des cartes de l'Alsace sur des thèmes variés.
+[Visualsace](http://www.visualsace.fr) est un site web personnel proposant des cartes de l'Alsace sur des thèmes variés.
 
 ## A faire
 - factorisation JS
