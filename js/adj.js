@@ -9,7 +9,8 @@ var map = L.mapbox.map('map', 'moasth.map-y1unod03,moasth.map-czvq0pvt',
         zoom: 13,
         minZoom: 11, 
         maxZoom: 19,
-        maxBounds: [[48.0303,6.3775],[49.0342,9.1571]]
+        maxBounds: [[48.0303,6.3775],[49.0342,9.1571]],
+        tileLayer: {detectRetina: true}
     });
 
 var markerLayer = L.mapbox.markerLayer().addTo(map);
