@@ -13,9 +13,7 @@ var Map = function () {
             minZoom: 7, 
             maxZoom: 19,
             maxBounds: [[41.275605,-13.64502],[52.534491,19.665527]], 
-            tileLayer: {
-                detectRetina: true, retinaVersion: 'moasth.map-14d5d9tc,moasth.map-wdsgqecq'
-            }
+            tileLayer: {detectRetina: true}
         }
     }
 
