@@ -2,8 +2,8 @@
 layout: carte_adj
 title: Carte des aires de jeux de Strasbourg &bull; visualsace
 ---
-<img style="float:left;margin:15px 10px 0 0" src="../img/playground.png" width="40" height'35'>
-#Carte des aires de jeux de Strasbourg   
+<img style="float:left;margin:12px 10px 0 0" src="../img/playground.png" width="40" height'35'>
+<h1 class="playground">Carte des aires de jeux de Strasbourg</h1>   
 <br/>
 
 <form id="filters" name="filtres">

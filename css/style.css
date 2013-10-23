@@ -314,7 +314,7 @@ ul, ol {
 .leaflet-popup-content h4 span {
   color: white;
   background: rgb(36, 166, 232);
-  background: rgba(36, 166, 232, 0.8);
+  background: rgba(36, 166, 232, 0.9);
   padding-bottom: 1px;
   padding-top: 1px;
 }
@@ -483,6 +483,10 @@ ul, ol {
   height: 30px;
 }
 
+.playground {
+  font-family: 'Crafty Girls', 'Lora', serif;
+}
+
 .post {
   border-bottom: 2px solid rgba(0,49,79,.08);
   padding: 20px 0 40px 0;
@@ -502,15 +506,6 @@ ul, ol {
   display: inline;
 }
 
-
-
-
-/* Use the following CSS code if you want to have a class per icon */
-/*
-Instead of a list of all class selectors,
-you can use the generic selector below, but it's slower:
-[class*="fui-"] {
-*/
 .fui-check-inverted,
 .fui-check,
 .fui-checkbox-unchecked,

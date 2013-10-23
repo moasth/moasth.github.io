@@ -46,7 +46,7 @@ markerLayer.on('layeradd', function(e) {
     var warning = '';
     if (data.pos != 'ok') warning = '<div class="alert alert-info"><strong>Remarque </strong>La position de cette aire de jeux n\'a pas pu être déterminée avec précision.</div>' 
     var displayPage = '<a onClick="javascript:displayFilter(); return false;" id="js-display-page" class="close-icon" href="#">Afficher les filtres</a><div class="clearfix"></div>';
-    var popupContent = '<div class="image"><img src="../img/adj' + picnum + '.jpg"><h4><span>' + data.libelle + '</span></h4></div>' + '<small><p class="muted">' + data.adresse + '</p>' + warning + '<p>' + description + '</p></small>' + displayPage;
+    var popupContent = '<div class="image"><img src="../img/adj' + picnum + '.jpg"><h4 class="playground"><span>' + data.libelle + '</span></h4></div>' + '<small><p class="muted">' + data.adresse + '</p>' + warning + '<p>' + description + '</p></small>' + displayPage;
 
     marker.bindPopup(popupContent,{
         closeButton: true,
