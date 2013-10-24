@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700,700italic,900,400italic,300");
+/*@import url("https://fonts.googleapis.com/css?family=Lato:400,700,700italic,900,400italic,300");*/
 @font-face {
   font-family: 'Flat-UI-Icons';
   src: url('../css/fonts/Flat-UI-Icons.eot');
@@ -296,6 +296,10 @@ ul, ol {
   top: 62px;
 }
 
+.leaflet-popup-content .tooltipContent { 
+   font-weight: bold;
+}
+
 .leaflet-popup-content .image { 
   margin-right: 0;
   position: relative; 
@@ -305,8 +309,9 @@ ul, ol {
 .leaflet-popup-content h4 { 
   position: absolute; 
   bottom: -6px;
+  font-size: 20px;
   left: 5px;
-  line-height: 26px;
+  line-height: 27px;
   margin-top: 2px; 
   width: 95%; 
 }
@@ -502,15 +507,6 @@ ul, ol {
   display: inline;
 }
 
-
-
-
-/* Use the following CSS code if you want to have a class per icon */
-/*
-Instead of a list of all class selectors,
-you can use the generic selector below, but it's slower:
-[class*="fui-"] {
-*/
 .fui-check-inverted,
 .fui-check,
 .fui-checkbox-unchecked,
