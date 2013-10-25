@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "On en parle sur G&eacute;oTribu  &bull; Blog"
+title: "On en parle sur G&eacute;oTribu"
 date: 05/10/2013
 comments: true
 published: true

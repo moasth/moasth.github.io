@@ -27,20 +27,20 @@ markerLayer.on('layeradd', function(e) {
 
     // Oui je sais, il faut factoriser
     var description = '';
-    if (data.BS > 0) description += 'Bac à sable : ' + data.BS + '<br/>';
-    if (data.BH > 0) description += 'Balançoire horizontale : ' + data.BH + '<br/>';
-    if (data.BP > 0) description += 'Balançoire portique : ' + data.BP + '<br/>';
-    if (data.EF > 0) description += 'Escalade ou filets : ' + data.EF + '<br/>';
-    if (data.JE > 0) description += 'Jeu d\'équilibre : ' + data.JE + '<br/>';
-    if (data.JS > 0) description += 'Jeu de sable : ' + data.JS + '<br/>';
-    if (data.MA > 0) description += 'Maisonnette : ' + data.MA + '<br/>';
-    if (data.MN > 0) description += 'Manège : ' + data.MN + '<br/>';
-    if (data.MSR > 0) description += 'Mobile sur ressort : ' + data.MSR + '<br/>';
-    if (data.ML > 0) description += 'Mobilier ludique : ' + data.ML + '<br/>';
-    if (data.MPN > 0) description += 'Mobilier pique nique : ' + data.MPN + '<br/>';
-    if (data.SMA > 0) description += 'Structure multi-activité : ' + data.SMA + '<br/>';
-    if (data.TE > 0) description += 'Téléphérique : ' + data.TE + '<br/>';
-    if (data.TO > 0) description += 'Toboggan : ' + data.TO + '<br/>';
+    if (data.BS > 0) description += 'Bac à sable x ' + data.BS + '<br/>';
+    if (data.BH > 0) description += 'Balançoire horizontale x ' + data.BH + '<br/>';
+    if (data.BP > 0) description += 'Balançoire portique x ' + data.BP + '<br/>';
+    if (data.EF > 0) description += 'Escalade ou filets x ' + data.EF + '<br/>';
+    if (data.JE > 0) description += 'Jeu d\'équilibre x ' + data.JE + '<br/>';
+    if (data.JS > 0) description += 'Jeu de sable x ' + data.JS + '<br/>';
+    if (data.MA > 0) description += 'Maisonnette x ' + data.MA + '<br/>';
+    if (data.MN > 0) description += 'Manège x ' + data.MN + '<br/>';
+    if (data.MSR > 0) description += 'Mobile sur ressort x ' + data.MSR + '<br/>';
+    if (data.ML > 0) description += 'Mobilier ludique x ' + data.ML + '<br/>';
+    if (data.MPN > 0) description += 'Mobilier pique nique x ' + data.MPN + '<br/>';
+    if (data.SMA > 0) description += 'Structure multi-activité x ' + data.SMA + '<br/>';
+    if (data.TE > 0) description += 'Téléphérique x ' + data.TE + '<br/>';
+    if (data.TO > 0) description += 'Toboggan x ' + data.TO + '<br/>';
 
     var picnum = getRandomInt(1, 4);
     var warning = '';

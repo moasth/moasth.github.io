@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Une premi&egrave;re carte disponible : les ch&acirc;teaux d'Alsace  &bull; Blog"
+title: "Une premi&egrave;re carte disponible : les ch&acirc;teaux d'Alsace"
 date: 04/09/2013
 comments: true
 published: true
