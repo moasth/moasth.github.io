@@ -52,6 +52,8 @@ markerLayer.on('layeradd', function(e) {
         closeButton: true,
         minWidth: 280
     });
+
+    _gaq.push(['_trackEvent', 'Aires de jeux', 'Détail', data.libelle]);
 });
 
 markerLayer.on('click',function(e) {
@@ -156,7 +158,7 @@ if (!Modernizr.geolocation) {
         e.preventDefault();
         e.stopPropagation();
         map.locate();
-        //_gaq.push(['_trackEvent', 'Châteaux', 'Géolocalisation']);
+        _gaq.push(['_trackEvent', 'Aires de jeux', 'Géolocalisation']);
     };
 }
 
