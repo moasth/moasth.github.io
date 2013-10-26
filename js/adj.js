@@ -58,6 +58,7 @@ markerLayer.on('click',function(e) {
     if(selectedLayer) setIcon(selectedLayer, false);
     setIcon(e.layer, true);
     selectedLayer = e.layer;
+    _gaq.push(['_trackEvent', 'Aires de jeux', 'Détail', data.libelle]);
 });
 
 markerLayer.loadURL('../data/airesdejeux.geojson')
