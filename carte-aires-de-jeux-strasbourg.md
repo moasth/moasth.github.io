@@ -99,3 +99,6 @@ Date de mise à jour des données : 11/10/2013<br/>
 Photos <a href="http://www.flickr.com/photos/carlwwycoff/" target="_blank">Carl Wycoff</a>, licence <a href="http://creativecommons.org/licenses/by/2.0/deed.fr" target="_blank">CC BY 2.0</a><br/>
 </small>
 </p>
+<div style="float: right">
+<img src="../img/logo-strasbourg-europtimist.png" alt="Strasbourg the europtimist">
+</div>
