@@ -2,12 +2,14 @@
 layout: carte_adj
 title: Carte des aires de jeux de Strasbourg &bull; visualsace
 ---
-<img style="float:left;margin:15px 10px 0 0" src="../img/playground.png" width="40" height'35'>
-#Carte des aires de jeux de Strasbourg   
-<br/>
+<img class="playground" src="../img/playground.png" alt="Icône aire de jeux">
+#Carte des aires de jeux de Strasbourg
 
+{% raw %}
+<br/>
+<div>
 <form id="filters" name="filtres">
-<!-- Utilisation d'une table pour faire du buzz -->
+<!-- Utilisation d'une table pour faire le buzz... ok bon j'ai prévu de l'enlever -->
 <table width="100%">
 <tr>
 <td width="50%">
@@ -91,14 +93,14 @@ title: Carte des aires de jeux de Strasbourg &bull; visualsace
 </tr>
 </table>
 </form>
-
-<p class="muted">
+</div><p class="muted">
 <small>
 Données produites par la <a href="http://www.strasbourg.eu/web/strasbourg.eu/ma-situation/professionnel/open-data">Ville de Strasbourg</a><br/>
 Date de mise à jour des données : 11/10/2013<br/>
-Photos <a href="http://www.flickr.com/photos/carlwwycoff/" target="_blank">Carl Wycoff</a>, licence <a href="http://creativecommons.org/licenses/by/2.0/deed.fr" target="_blank">CC BY 2.0</a><br/>
+Photos <a href="http://www.flickr.com/photos/carlwwycoff/" target="_blank">Carl Wycoff</a> (licence <a href="http://creativecommons.org/licenses/by/2.0/deed.fr" target="_blank">CC BY 2.0</a>)<br/>
 </small>
 </p>
 <div style="float: right">
 <img src="../img/logo-strasbourg-europtimist.png" alt="Strasbourg the europtimist">
 </div>
+{% endraw %}

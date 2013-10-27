@@ -8,7 +8,7 @@ comments: false
 <div class="post">
 	<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 	<div class="date">{{ post.date | date_to_string }}</div>  
-	<p>{{ post.excerpt }}</p>
+	{{ post.excerpt }}
 	<a href="{{ site.baseurl }}{{ post.url }}">Lire la suite...</a>
 </div>
 {% endfor %}
