@@ -26,7 +26,7 @@ La concentration de châteaux forts en Alsace est inégalée ! Elle s'explique p
 L'affichage des reliefs sur cette carte permet de se rendre compte à quel point les sommets vosgiens, éperons, bouts de crête, offraient au Moyen Age une position stratégique et défensive idéale. 
 
 <p class="muted"><small>Sources : <a href="http://www.wikipedia.org/" title="Wikipédia">Wikipédia</a>, <a href="http://commons.wikimedia.org/" title="Wikimedia Commons">Wikimedia Commons</a>, <a href="http://www.openstreetmap.org/" title="OpenStreetMap">OpenStreetMap</a><br>
-Fond de carte : <a href="http://www.mapbox.com" title="Mapbox">Mapbox Terrain</a>
+Fond de carte <a href="https://www.mapbox.com/about/maps/" alt="Licence Mapbox">Mapbox</a> et contributeurs d'<a href="http://www.openstreetmap.org/copyright" alt="Copyright et Licence OpenStreetMap">OpenStreetMap</a> ©
 <br/> 
 Dernière mise à jour : 28/09/2013
 </small></p>

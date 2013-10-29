@@ -93,11 +93,12 @@ title: Carte des aires de jeux de Strasbourg &bull; visualsace
 </tr>
 </table>
 </form>
-</div><p class="muted">
+</div><p class="muted" style="margin-top:56px;">
 <small>
 Données produites par la <a href="http://www.strasbourg.eu/web/strasbourg.eu/ma-situation/professionnel/open-data">Ville de Strasbourg</a><br/>
 Date de mise à jour des données : 11/10/2013<br/>
 Photos <a href="http://www.flickr.com/photos/carlwwycoff/" target="_blank">Carl Wycoff</a> (licence <a href="http://creativecommons.org/licenses/by/2.0/deed.fr" target="_blank">CC BY 2.0</a>)<br/>
+Fond de carte <a href="https://www.mapbox.com/about/maps/" alt="Licence Mapbox">Mapbox</a> et contributeurs d'<a href="http://www.openstreetmap.org/copyright" alt="Copyright et Licence OpenStreetMap">OpenStreetMap</a> ©
 </small>
 </p>
 <div style="float: right">
