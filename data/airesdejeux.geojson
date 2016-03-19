@@ -2479,6 +2479,29 @@
                     48.589332946275
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 9999,
+                "pos": "ok",
+                "typo": "Parcs",
+                "libelle": "Parc du Heyritz",
+                "nom_aire": "Parc du Heyritz",
+                "num_aire": 9999,
+                "num_pv": 9999,
+                "adresse": "Parc du Heyritz",
+                "nom_pv": "Parc du Heyritz",
+                "BP": 2,
+                "TO": 2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.746005058288573,
+                    48.5727561076769
+                ]
+            }
         }
     ]
 }
