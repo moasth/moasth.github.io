@@ -3,7 +3,8 @@ layout: carte_adj
 title: Carte des aires de jeux de Strasbourg &bull; visualsace
 ---
 <img class="playground" src="../img/playground.png" alt="Icône aire de jeux">
-#Carte des aires de jeux de Strasbourg
+
+# Carte des aires de jeux de Strasbourg
 
 {% raw %}
 <br/>

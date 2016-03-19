@@ -2,12 +2,13 @@
 layout: carte
 title: Carte des ch&acirc;teaux d'Alsace &bull; visualsace
 ---
-#Carte des ch&acirc;teaux d'Alsace
+# Carte des ch&acirc;teaux d'Alsace
 La concentration de châteaux forts en Alsace est inégalée ! Elle s'explique principalement par l'importance stratégique de la région au Moyen Age et par les luttes opposant le pouvoir impérial et l'Eglise. Construits entre les XIe et XIVe siècle, il en subsiste aujourd'hui de très nombreux vestiges.   
 
 **Châteaux forts, châteaux de plaine, palais renaissance ou palais classiques de la fin du XIXe, tous les types de châteaux sont recensés sur cette carte qui en compte actuellement 105 au total**.
 
 <br/>
+
 ## Légende et mode d'emploi
 <div class="row-fluid">
 	<div class="span2"><img src="../img/cluster_big.png" alt="" style="height: 40px; width: 40px;"></div>

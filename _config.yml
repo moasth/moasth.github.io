@@ -7,13 +7,14 @@
 #markdown: rdiscount
 #permalink: pretty
 
+gems: [jekyll-paginate]
 name: visualsace
-pygments: true
+#pygments: true
+highlighter: rouge
 paginate: 5
 paginate_path: page/:num
 #baseurl: /boombo
 baseurl: http://www.visualsace.fr
-markdown: rdiscount
+markdown: kramdown
 permalink: pretty
-pygments: true
 url: http://www.visualsace.fr

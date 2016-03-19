@@ -4,7 +4,7 @@ title: Contact &bull; visualsace
 date: 25/09/2013
 published: true
 ---
-#Contact
+# Contact
 Pour m'envoyer un petit mot ou vous tenir au courant des mises à jour : 
 <div class="contact">
 	<div><span class="icon-webmail" title="Email"></span> <a href="mailto:visualsace@gmail.com">visualsace@gmail.com</a></div>

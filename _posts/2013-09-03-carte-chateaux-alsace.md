@@ -13,5 +13,6 @@ Si vous relevez des oublis, des erreurs, si vous souhaitez me faire part de vos 
 <div class="bouton"><a href="../../../../carte-chateaux-alsace/">Afficher la carte</a></div>
 
 <br/>
-##Un petit mot sur Visualsace
+
+## Un petit mot sur Visualsace
 Visualsace est un projet personnel. Il répond donc avant tout à des besoins et des envies personnelles et j'espère pouvoir vous proposer d'autres cartes très prochainement. Ces cartes concerneront essentiellement l'Alsace bien sûr mais aussi Strasbourg probablement. A suivre.
